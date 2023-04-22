@@ -6,8 +6,6 @@ namespace SKien\Google;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
-
-
 /**
  * Class to connect to the google API using OAuth2 authentication.
  *

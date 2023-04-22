@@ -6,7 +6,7 @@ namespace SKien\Google;
 /**
  * Helper class for the maintenance of the oauth client data and tokens.
  *
- * > **Note:**
+ * > **Note:** <br/>
  * > This class ofers the functionality to save tokens in files on the server.
  * > This 'mode' was implemented for development purposes:
  * > - for easier read the tokens returned by the google API
@@ -17,7 +17,7 @@ namespace SKien\Google;
  * >   the tokens from the files created after the oauth-login has called the
  * >   redirectURI.
  * >
- * > **For of security issues DO NOT USE THIS MODE for public environments!!! **
+ * > **For of security issues DO NOT USE THIS MODE for public environments!!!**
  *
  * @author Stefanius <s.kientzler@online.de>
  * @copyright MIT License - see the LICENSE file for details
@@ -45,11 +45,11 @@ class GSecrets
 
     /**
      * Create an instance of the class.
-     * ** DO NOT USE ´$iSaveTokensAt = self::TOKEN_FILE´ IN PUBLIC ENVIRONMENT **
-     * In 'self::TOKEN_FILE - Mode' the ´$iKeepLoggedIn´ param is ignored since the tokens
+     * **DO NOT USE `$iSaveTokensAt = self::TOKEN_FILE` IN PUBLIC ENVIRONMENT** <br/>
+     * In 'self::TOKEN_FILE - Mode' the `$iKeepLoggedIn` param is ignored since the tokens
      * saved in files that never expires unless they are deleted manually...
-     * @param int $iKeepLoggedIn    (0 -> session only, -1 -> 'forever', other value -> days to keep the login
-     * @param int $iSaveTokensAt
+     * @param int $iKeepLoggedIn    0 (default) -> session only, -1 -> 'forever', other value -> days to keep the login
+     * @param int $iSaveTokensAt    `self::TOKEN_COOKIE` (default) or `self::TOKEN_FILE`
      */
     public function __construct(int $iKeepLoggedIn = 0, int $iSaveTokensAt = self::TOKEN_COOKIE)
     {
@@ -64,7 +64,7 @@ class GSecrets
     /**
      * Set the path where the secrets- and token files are located.
      * The directory must not be write-protected and should be protected
-     * agains access from outside (.htacces: ´deny from all´).
+     * agains access from outside (.htacces: `deny from all`).
      * @param string $strSecretsPath
      */
     public function setSecretsPath(string $strSecretsPath) : void

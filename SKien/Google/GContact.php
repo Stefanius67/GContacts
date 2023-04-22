@@ -91,8 +91,7 @@ class GContact extends \ArrayObject
     /** Array with the person's relations to another person.
      *  @link https://developers.google.com/people/api/rest/v1/people#Person.Relation     */
     public const PF_RELATIONS = 'relations';
-    /** Array with a person's SIP addresses. Session Initial Protocol addresses are used for
-     *  VoIP communications to make voice or video calls over the internet.
+    /** Array with a person's SIP addresses (Session Initial Protocol addresses)
      *  @link https://developers.google.com/people/api/rest/v1/people#Person.SipAddress     */
     public const PF_SIP_ADDRESSES = 'sipAddresses';
     /** Array containing the skills that the person has.
@@ -242,7 +241,7 @@ class GContact extends \ArrayObject
     /**
      * Checks, if current contact is starred.
      * The property 'starred' just means, the contact belongs to the system
-     * group ´contactGroups/starred´.
+     * group `contactGroups/starred`.
      * @return bool
      */
     public function isStarred() : bool
@@ -354,7 +353,7 @@ class GContact extends \ArrayObject
     /**
      * Get date of birth.
      * The return type can be specified in the `$iType`parameter: <ul>
-     * <li><b> self::DT_STRING (default):</b> Date as String in f´the format set with `$strFormat`param (default = 'Y-m-d') </li>
+     * <li><b> self::DT_STRING (default):</b> Date as String in the format set with `$strFormat`param (default = 'Y-m-d') </li>
      * <li><b> self::DT_UNIX_TIMESTAMP:</b> Date as unix timestamp</li>
      * <li><b> self::DT_OBJECT:</b> Date as DateTime object </li></ul>
      *

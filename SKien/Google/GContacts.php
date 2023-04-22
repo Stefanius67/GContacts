@@ -162,7 +162,7 @@ class GContacts
      * > The count of contacts, the search request returns is limitetd to the
      * > pageSize (which is limited itself to max. 30 at all). If there are
      * > more contacts in the list that matches the query, unfortunately NO
-     * > further information aboutthat additional contacts - and how many - are
+     * > further information about that additional contacts - and how many - are
      * > available!
      * @link https://developers.google.com/people/api/rest/v1/people/searchContacts
      * @param string $strQuery
@@ -307,7 +307,7 @@ class GContacts
 
     /**
      * Set or unset the 'starred' mark for the specified contact.
-     * The 'starred' mark just means, the contact belongs to the system group ´contactGroups/starred´.
+     * The 'starred' mark just means, the contact belongs to the system group `contactGroups/starred`.
      * @see GContactGroups::addContactsToGroup()
      * @see GContactGroups::removeContactsFromGroup()
      * @param string $strResourceName

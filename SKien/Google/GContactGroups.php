@@ -10,12 +10,12 @@ namespace SKien\Google;
  *  - contactGroups
  *  - contactGroups.members
  *
- * If one of the methods that calls the google API fails (if it returns ´false´),
+ * If one of the methods that calls the google API fails (if it returns `false`),
  * the last responsecode and furter informations can be retrieved through
- * following methods of the ´GClient´ instance this object was created with:
- *  - ´$oClient->getLastResponseCode()´
- *  - ´$oClient->getLastError()´
- *  - ´$oClient->getLastStatus()´
+ * following methods of the `GClient` instance this object was created with:
+ *  - `$oClient->getLastResponseCode()`
+ *  - `$oClient->getLastError()`
+ *  - `$oClient->getLastStatus()`
  *
  * @see \SKien\Google\GClient::getLastResponseCode()
  * @see \SKien\Google\GClient::getLastError()
@@ -56,14 +56,21 @@ class GContactGroups
     /** list as associative array resourceName -> groupName    */
     public const RES_LIST = 1;
 
-    /** resourceNames of the systemGroups   */
+    /** system group 'starred'  */
     public const GRP_STARRED = 'contactGroups/starred';
+    /** system group 'chatBuddies'  */
     public const GRP_CHAT_BUDDIES = 'contactGroups/chatBuddies';
+    /** system group 'all'  */
     public const GRP_ALL = 'contactGroups/all';
+    /** system group 'myContacts'  */
     public const GRP_MY_CONTACTS = 'contactGroups/myContacts';
+    /** system group 'friends'  */
     public const GRP_FRIENDS = 'contactGroups/friends';
+    /** system group 'family'  */
     public const GRP_FAMILY = 'contactGroups/family';
+    /** system group 'coworkers'  */
     public const GRP_COWORKERS = 'contactGroups/coworkers';
+    /** system group 'blocked'  */
     public const GRP_BLOCKED = 'contactGroups/blocked';
 
     /** max. pagesize for the list request */
@@ -89,9 +96,9 @@ class GContactGroups
     /**
      * Add groupFields for next request.
      * Can be called multiple and/or by passing an array of groupFields. All
-     * const self::GF_xxxx can be specified.
+     * const `self::GF_xxxx` can be specified.
      * Normally the groupFields parameter is left blank, which means that
-     * all groupFields except GF_CLIENT_DATA are taken into account.
+     * all groupFields except `GF_CLIENT_DATA` are taken into account.
      * @param string|array<string>|null $fields; if set to null, the internal list is cleared
      */
     public function addGroupFields($fields) : void
@@ -117,15 +124,15 @@ class GContactGroups
 
     /**
      * Get the whole list of the contact groups.
-     * The type of the groups to l ist (All, User or System) can be specified by the
-     * ´$strGroupType´ parameter.  <br/><br/>
-     * The content of the result array can be specified with the ´$iListType´ parameter.
-     * ´self::RES_LIST´:    all groups as associative array ´ressourceName´ -> ´groupName´.
-     * ´self::DATA_LIST´:   an array of all ContactGroup - objects.
+     * The type of the groups to list (All, User or System) can be specified by the
+     * `$strGroupType` parameter.  <br/><br/>
+     * The content of the result array can be specified with the `$iListType` parameter.
+     * - `self::RES_LIST`:    all groups as associative array `ressourceName` -> `groupName`.
+     * - `self::DATA_LIST`:   an array of all ContactGroup - objects.
      * @link https://developers.google.com/people/api/rest/v1/contactGroups/list
      * @link https://developers.google.com/people/api/rest/v1/contactGroups#ContactGroup
-     * @param string $strGroupType  use one of the ´self::GT_xxx´ constants
-     * @param int $iListType    content of the result array (´self::RES_LIST´ or ´self::DATA_LIST´)
+     * @param string $strGroupType  use one of the `self::GT_xxx` constants
+     * @param int $iListType    content of the result array (`self::RES_LIST` or `self::DATA_LIST`)
      * @return array<mixed>|false
      */
     public function list(string $strGroupType = self::GT_ALL_CONTACT_GROUPS, int $iListType = self::RES_LIST)
@@ -271,7 +278,7 @@ class GContactGroups
 
     /**
      * Delete the contact group specified by the resourceName.
-     * If the param ´$bDeleteContacts´ is set to true, ALL contacts that are asigned to
+     * If the param `$bDeleteContacts` is set to true, ALL contacts that are asigned to
      * the group to delete will be <b>deleted</b> to!
      * @link https://developers.google.com/people/api/rest/v1/contactGroups/delete
      * @param string $strResourceName
