@@ -1,0 +1,7 @@
+/.settings/
+/.buildpath
+/.project
+/test/coverage/
+/wiki/
+/secrets/*.txt
+/secrets/*.json

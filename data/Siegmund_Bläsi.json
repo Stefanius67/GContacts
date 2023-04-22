@@ -1,0 +1,106 @@
+{
+    "resourceName": "people\/c7492684801517070528",
+    "etag": "%Eg8BAgMHCQoLDBAuNz0+P0AaBAECBQciDFg2T3R0RzVndjBJPQ==",
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "67fb5d210864a8c0"
+                }
+            },
+            "displayName": "Siegmund Bl\u00e4si",
+            "familyName": "Bl\u00e4si",
+            "givenName": "Siegmund",
+            "displayNameLastFirst": "Bl\u00e4si, Siegmund",
+            "unstructuredName": "Siegmund Bl\u00e4si"
+        }
+    ],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "67fb5d210864a8c0"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/contacts\/AOq4LdZHWvq9zmf8gYYnUzfm0GU09FFqhbPhB6BVMxUJw7ROC2SeYo5K=s100"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "PROFILE",
+                    "id": "101134704340931137622"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/a-\/ACB-R5RgjvYwpW9vW8Zo970DAX3i82bNG8uVDISRC_Sg=s100"
+        }
+    ],
+    "birthdays": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "67fb5d210864a8c0"
+                }
+            },
+            "date": {
+                "year": 1959,
+                "month": 5,
+                "day": 15
+            },
+            "text": "15.05.1959"
+        }
+    ],
+    "addresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "67fb5d210864a8c0"
+                }
+            },
+            "formattedValue": "Salzbrunnenstra\u00dfe 2\n77933 Lahr\/Schwarzwald\nDE",
+            "type": "home",
+            "formattedType": "Home",
+            "streetAddress": "Salzbrunnenstra\u00dfe 2",
+            "city": "Lahr\/Schwarzwald",
+            "postalCode": "77933",
+            "country": "DE",
+            "countryCode": "DE"
+        }
+    ],
+    "emailAddresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "67fb5d210864a8c0"
+                }
+            },
+            "value": "siegmund.blaesi@web.de",
+            "type": "home",
+            "formattedType": "Home"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "67fb5d210864a8c0"
+                }
+            },
+            "value": "+49 (151) 12110677",
+            "canonicalForm": "+4915112110677",
+            "type": "mobile",
+            "formattedType": "Mobile"
+        }
+    ]
+}

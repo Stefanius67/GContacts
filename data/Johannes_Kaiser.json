@@ -1,0 +1,121 @@
+{
+    "resourceName": "people\/c7318828015102880800",
+    "etag": "%Eg8BAgMHCQoLDBAuNz0+P0AaBAECBQciDDhXWTJNYkhieUU4PQ==",
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "displayName": "Johannes Kaiser",
+            "familyName": "Kaiser",
+            "givenName": "Johannes",
+            "displayNameLastFirst": "Kaiser, Johannes",
+            "unstructuredName": "Johannes Kaiser"
+        }
+    ],
+    "nicknames": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "value": "Hannes"
+        }
+    ],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/cm\/AOLgnvugda_XLipX571H3tbSyseR6pSr65R9Mvi_NtRJd86M_mM6kyM4Lz4-FKfZOh71=s100",
+            "default": true
+        }
+    ],
+    "birthdays": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "date": {
+                "year": 1986,
+                "month": 11,
+                "day": 6
+            }
+        }
+    ],
+    "addresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "formattedValue": "Feuerwehrstra\u00dfe 12\n77966 Kappel-Grafenhausen\nDE",
+            "type": "home",
+            "formattedType": "Home",
+            "streetAddress": "Feuerwehrstra\u00dfe 12",
+            "city": "Kappel-Grafenhausen",
+            "postalCode": "77966",
+            "country": "DE",
+            "countryCode": "DE"
+        }
+    ],
+    "emailAddresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "value": "johannes.penisch@web.de",
+            "type": "other",
+            "formattedType": "Other"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "value": "+49 (173) 9837247",
+            "canonicalForm": "+491739837247",
+            "type": "mobile",
+            "formattedType": "Mobile"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "6591b34d8c626c20"
+                }
+            },
+            "value": "+49 (7822) 61820",
+            "canonicalForm": "+49782261820",
+            "type": "home",
+            "formattedType": "Home"
+        }
+    ]
+}

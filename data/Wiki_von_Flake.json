@@ -1,0 +1,256 @@
+{
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "displayName": "Wiki von Flake",
+            "familyName": "von Flake",
+            "givenName": "Wiki",
+            "displayNameLastFirst": "von Flake, Wiki",
+            "unstructuredName": "Wiki von Flake"
+        }
+    ],
+    "organizations": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "name": "Company 4711"
+        }
+    ],
+    "nicknames": [],
+    "birthdays": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "date": {
+                "year": 2001,
+                "month": 7,
+                "day": 4
+            }
+        }
+    ],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/contacts\/AOq4Ldab3nKopo6mIXASbaTmlm3fMEcMk7YbjVL2_KBuYzayqIP9yhkV=s100"
+        }
+    ],
+    "addresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                },
+                "sourcePrimary": true
+            },
+            "formattedValue": "B\u00e4renweg. 4\nMusterstadt 54321",
+            "type": "home",
+            "formattedType": "Home",
+            "streetAddress": "B\u00e4renweg. 4",
+            "city": "Musterstadt",
+            "postalCode": "54321"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "formattedValue": "Companystr. 8\nMusterstadt 65432\nDeutschland",
+            "type": "work",
+            "formattedType": "Work",
+            "streetAddress": "Companystr. 8",
+            "city": "Musterstadt",
+            "postalCode": "65432",
+            "country": "Deutschland"
+        }
+    ],
+    "emailAddresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                },
+                "sourcePrimary": true
+            },
+            "value": "private@web.de",
+            "type": "home",
+            "formattedType": "Home"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "value": "work@company.de",
+            "type": "work",
+            "formattedType": "Work"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "value": "president@club.de",
+            "type": "other",
+            "formattedType": "Other"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                },
+                "sourcePrimary": true
+            },
+            "value": "0123 89765456",
+            "type": "mobile",
+            "formattedType": "Mobile"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "value": "01234 98356",
+            "type": "work",
+            "formattedType": "Work"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "value": "01234 5678",
+            "type": "home",
+            "formattedType": "Home"
+        }
+    ],
+    "genders": [],
+    "memberships": [
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "2dd532420c321d9c",
+                "contactGroupResourceName": "contactGroups\/2dd532420c321d9c"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "3ba275b00c16c5f4",
+                "contactGroupResourceName": "contactGroups\/3ba275b00c16c5f4"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "51aeffa38ac32fe5",
+                "contactGroupResourceName": "contactGroups\/51aeffa38ac32fe5"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "myContacts",
+                "contactGroupResourceName": "contactGroups\/myContacts"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "starred",
+                "contactGroupResourceName": "contactGroups\/starred"
+            }
+        }
+    ],
+    "metadata": {
+        "sources": [
+            {
+                "type": "CONTACT",
+                "id": "399c6e3d098e427c",
+                "etag": "#EVHlU5FRVeA=",
+                "updateTime": "2023-04-20T16:44:34.391804Z"
+            }
+        ],
+        "objectType": "PERSON"
+    },
+    "biographies": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "399c6e3d098e427c"
+                }
+            },
+            "value": "Hier steht ein mehrzeiliger Text,\r\nder auch Umlaute (\u00e4,\u00f6,\u00fc) und Sonderzeichen\r\n(@,~,\u00a7,$) enth\u00e4....",
+            "contentType": "TEXT_PLAIN"
+        }
+    ],
+    "urls": [],
+    "resourceName": "people\/c4151314164961133180",
+    "etag": "%EhMBAgMFBgcICQoLDBAuNTc9Pj9AGgQBAgUHIgxFVkhsVTVGUlZlQT0="
+}

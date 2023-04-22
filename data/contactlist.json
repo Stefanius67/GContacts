@@ -1,0 +1,5659 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFhTQXBBbkpibEhNPQ==",
+    "resourceName": "people\/c6431334937440794704",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "akramnasim@rocketmail.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5940b10d09b7b850",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491797598093",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 7598093",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5940b10d09b7b850",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFFpME5YL04wOFIwPQ==",
+    "resourceName": "people\/c8615726534415590550",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915232151494",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 32151494",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "779135a28dbfa496",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDE1VdXdGUmtNbm5jPQ==",
+    "resourceName": "people\/c2157789409332039964",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917622238096",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 22238096",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1df202090b56111c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFVmYlF6WEpwWnhJPQ==",
+    "resourceName": "people\/c1144765924537838132",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "w.andlauer@kabelbw.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "fe3068b0b0caa34",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFl0LzA3a05ZYmlZPQ==",
+    "resourceName": "people\/c3152269158044869196",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": "Sulz",
+            "formattedType": "Privat",
+            "formattedValue": "Lahrer Stra\u00dfe 21\n77933 Lahr-Sulz",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "21 Lahrer Stra\u00dfe",
+            "type": "Privat",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2bbf1c1909af224c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "i-love-it-badisch@freenet.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2bbf1c1909af224c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491726297777",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (172) 6297777",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2bbf1c1909af224c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497821983795",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7821) 983795",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2bbf1c1909af224c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDNITjArVnhvL3VrPQ==",
+    "resourceName": "people\/c8662352237703615366",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915165229437",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "01516 5229437",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7836db770fa25386",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFpnZzMxTGNJMkVJPQ==",
+    "resourceName": "people\/c8697447639495415601",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "marcel.barth@medien-haus.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "78b38a8c0caf1731",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491754635048",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (175) 4635048",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "78b38a8c0caf1731",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFRDN2s2SHI4Ni9RPQ==",
+    "resourceName": "people\/c287137513397447434",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491624945569",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (162) 4945569",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3fc1e0c0fbe6b0a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c5037874450909776638",
+    "addresses": [
+        {
+            "city": "Schwetzingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "7 Eisenacherstr\n68723 Schwetzingen",
+            "poBox": null,
+            "postalCode": "68723",
+            "region": null,
+            "streetAddress": "7 Eisenacherstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "45ea201f0d7e4afe",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Schwetzingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Eisenacherstr. 7\n68723 Schwetzingen",
+            "poBox": null,
+            "postalCode": "68723",
+            "region": null,
+            "streetAddress": "7 Eisenacherstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "45ea201f0d7e4afe",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "claudiabaeumler@online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "45ea201f0d7e4afe",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491738256324",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (173) 8256324",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "45ea201f0d7e4afe",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4962021281200",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (6202) 1281200",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "45ea201f0d7e4afe",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHNiYnJocUFtcTNnPQ==",
+    "resourceName": "people\/c50794557658526591",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "regner@cheers-freiburg.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b475618dc2737f",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "th.regner@gmx.de",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b475618dc2737f",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49761381771",
+            "formattedType": "Work",
+            "type": "work",
+            "value": "+49 (761) 381771",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b475618dc2737f",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+491792025958",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 179 2025958",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b475618dc2737f",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDY2V2tFN216blQwPQ==",
+    "resourceName": "people\/c1691010765945810969",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49782138188",
+            "formattedType": "Work",
+            "type": "work",
+            "value": "+49 (7821) 38188",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1777ad550f8fb019",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFdrN1ZYeE9XUWNNPQ==",
+    "resourceName": "people\/c370212362061872148",
+    "addresses": [
+        {
+            "city": "Buchenbach",
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "Pr\u00e4genhofstra\u00dfe 32\n79256 Buchenbach\nDE",
+            "poBox": null,
+            "postalCode": "79256",
+            "region": null,
+            "streetAddress": "Pr\u00e4genhofstra\u00dfe 32",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "523422e8c27fc14",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Home",
+            "type": "home",
+            "value": "andreas.bergander@fangemeinschaft.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "523422e8c27fc14",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915123037995",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (151) 23037995",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "523422e8c27fc14",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497661904994",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7661) 904994",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "523422e8c27fc14",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c100902646142836184",
+    "addresses": [
+        {
+            "city": "Schwanau",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "5 Oberer Graben\n77963 Schwanau\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77963",
+            "region": null,
+            "streetAddress": "5 Oberer Graben",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1667a6c0c3d9dd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Schwanau",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": "Ottenheim",
+            "formattedType": "Privat",
+            "formattedValue": "Oberer Graben 5\n77963 Schwanau - Ottenheim\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77963",
+            "region": null,
+            "streetAddress": "5 Oberer Graben",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1667a6c0c3d9dd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "uwe.bertulat@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1667a6c0c3d9dd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "ub@knaddlys.de",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1667a6c0c3d9dd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491601244982",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (160) 1244982",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1667a6c0c3d9dd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDEhjOVo3OERnOUQwPQ==",
+    "resourceName": "people\/c1532547861602946481",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917620520559",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 176 20520559",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1544b4290c20cdb1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDCtNVFRWZUVReGQwPQ==",
+    "resourceName": "people\/c7492684801517070528",
+    "addresses": [
+        {
+            "city": "Lahr\/Schwarzwald",
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "Salzbrunnenstra\u00dfe 2\n77933 Lahr\/Schwarzwald\nDE",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "Salzbrunnenstra\u00dfe 2",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "67fb5d210864a8c0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Home",
+            "type": "home",
+            "value": "siegmund.blaesi@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "67fb5d210864a8c0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915112110677",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (151) 12110677",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "67fb5d210864a8c0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDNIdmZPeVowOG93PQ==",
+    "resourceName": "people\/c8337041714471042362",
+    "addresses": [
+        {
+            "city": "Endingen am Kaiserstuhl",
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "Henneng\u00e4rtle 1\n79346 Endingen am Kaiserstuhl\nDE",
+            "poBox": null,
+            "postalCode": "79346",
+            "region": null,
+            "streetAddress": "Henneng\u00e4rtle 1",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "73b31f448ca8fd3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "alex510@gmx.net",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "73b31f448ca8fd3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491741763542",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (174) 1763542",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "73b31f448ca8fd3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c806825560408483728",
+    "addresses": [
+        {
+            "city": "Riegel",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "22\/1 Leopoldstra\u00dfe\n79359 Riegel",
+            "poBox": null,
+            "postalCode": "79359",
+            "region": null,
+            "streetAddress": "22\/1 Leopoldstra\u00dfe",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b326b928bda6790",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Riegel",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Leopoldstra\u00dfe 22\/1\n79359 Riegel",
+            "poBox": null,
+            "postalCode": "79359",
+            "region": null,
+            "streetAddress": "22\/1 Leopoldstra\u00dfe",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b326b928bda6790",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "stefanbock1979@yahoo.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b326b928bda6790",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915254536251",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 54536251",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "b326b928bda6790",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c7288782869902491614",
+    "addresses": [
+        {
+            "city": null,
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "44 L\u00f6wenstr\n77966",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "44 L\u00f6wenstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6526f5670d7d7fde",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": null,
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": "Kappel",
+            "formattedType": "Privat",
+            "formattedValue": "L\u00f6wenstr. 44\n77966 Kappel",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "44 L\u00f6wenstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6526f5670d7d7fde",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "fb@knaddlys.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6526f5670d7d7fde",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491773100671",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (177) 3100671",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6526f5670d7d7fde",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+49782278240",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7822) 78240",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6526f5670d7d7fde",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGlyVHVQUm5SY2R3PQ==",
+    "resourceName": "people\/c4103731203695876730",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49782278240",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7822) 78240",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "38f361c989fa9a7a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+491743712794",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 174 3712794",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "38f361c989fa9a7a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDNuUXdhb2JzMm5ZPQ==",
+    "resourceName": "people\/c2068249737167993778",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917656245467",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 56245467",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1cb3e62d8ab17bb2",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c3788560829894360108",
+    "addresses": [
+        {
+            "city": "Karlsruhe",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "23 Ludwig-Marum Strasse\n76185 Karlsruhe",
+            "poBox": null,
+            "postalCode": "76185",
+            "region": null,
+            "streetAddress": "23 Ludwig-Marum Strasse",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3493ac008bcffc2c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Karlsruhe",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Ludwig-Marum Strasse 23\n76185 Karlsruhe",
+            "poBox": null,
+            "postalCode": "76185",
+            "region": null,
+            "streetAddress": "23 Ludwig-Marum Strasse",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3493ac008bcffc2c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "mb@knaddlys.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3493ac008bcffc2c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491636407870",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (163) 6407870",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3493ac008bcffc2c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497218933813",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (721) 8933813",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3493ac008bcffc2c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c5703633914816572106",
+    "addresses": [
+        {
+            "city": null,
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "44 L\u00f6wenstr\n77966",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "44 L\u00f6wenstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4f2760d38d832aca",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": null,
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": "Kappel",
+            "formattedType": "Privat",
+            "formattedValue": "L\u00f6wenstr. 44\n77966 Kappel",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "44 L\u00f6wenstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4f2760d38d832aca",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "philipp.boedingmeier@online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4f2760d38d832aca",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917663414623",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 63414623",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4f2760d38d832aca",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+49782278240",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7822) 78240",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4f2760d38d832aca",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c8826687171859549634",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "24 Weingartenstrasse\n77933 Lahr\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "24 Weingartenstrasse",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7a7eb1378e2f8dc2",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": "Sulz",
+            "formattedType": "Privat",
+            "formattedValue": "Weingartenstrasse 24\n77933 Lahr-Sulz\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "24 Weingartenstrasse",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7a7eb1378e2f8dc2",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917672311566",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 72311566",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7a7eb1378e2f8dc2",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGszUlAyRFRycC9rPQ==",
+    "resourceName": "people\/c4942344439624154053",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491713631671",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 171 3631671",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4496bc15096cbbc5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHhyM0gwQmoyQnl3PQ==",
+    "resourceName": "people\/c8214898290552926292",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "simonbraun1987@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "72012e788a5ef054",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491723216222",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (172) 3216222",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "72012e788a5ef054",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c8651505901134206654",
+    "addresses": [
+        {
+            "city": "Kleines Wiesental",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "7 Oberdorfweg\n79692 Kleines Wiesental",
+            "poBox": null,
+            "postalCode": "79692",
+            "region": null,
+            "streetAddress": "7 Oberdorfweg",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "781052c7894cd6be",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Kleines Wiesental",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Oberdorfweg 7\n79692 Kleines Wiesental",
+            "poBox": null,
+            "postalCode": "79692",
+            "region": null,
+            "streetAddress": "7 Oberdorfweg",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "781052c7894cd6be",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "braun.1995@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "781052c7894cd6be",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491741751201",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (174) 1751201",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "781052c7894cd6be",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+49762263566",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7622) 63566",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "781052c7894cd6be",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c8403936609590078291",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "32 Heerstr\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "32 Heerstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "74a0c7d209846b53",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Heerstr. 32\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "32 Heerstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "74a0c7d209846b53",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "nico@knaddlys.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "74a0c7d209846b53",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917636475335",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 36475335",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "74a0c7d209846b53",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c4787233250581302625",
+    "addresses": [
+        {
+            "city": "Gutach",
+            "country": "DE",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "83 Simonsw\u00e4lder Str\nD\n79261 Gutach\n\nDE",
+            "poBox": null,
+            "postalCode": "79261",
+            "region": null,
+            "streetAddress": "83 Simonsw\u00e4lder Str\nD",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "426fab470dd64d61",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Gutach",
+            "country": "DE",
+            "countryCode": null,
+            "extendedAddress": "Bleibach",
+            "formattedType": "Privat",
+            "formattedValue": "Simonsw\u00e4lder Str. 83\n79261 Gutach-Bleibach\n\nD",
+            "poBox": null,
+            "postalCode": "79261",
+            "region": null,
+            "streetAddress": "83 Simonsw\u00e4lder Str\nD",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "426fab470dd64d61",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "michael-buchholz-bleibach@t-online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "426fab470dd64d61",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "michael.buchholz-bleibach@gmx.de",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "426fab470dd64d61",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+497685909169",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7685) 909169",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "426fab470dd64d61",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHZhd0FxcEYrVU9nPQ==",
+    "resourceName": "people\/c4388961193040958472",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491608033332",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 160 8033332",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3ce8b8f38c2e5408",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFZiS2V4bFh4empJPQ==",
+    "resourceName": "people\/c104935813690327508",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "m_bussmann@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "174ce910b3a81d4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491705373140",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (170) 5373140",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "174ce910b3a81d4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDEEzMm9BMVpOWWtBPQ==",
+    "resourceName": "people\/c2924176463085214042",
+    "addresses": [
+        {
+            "city": "Kappel-Grafenhausen",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "8a L\u00f6wenstr\n77966 Kappel-Grafenhausen\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "8a L\u00f6wenstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2894c3000ec0995a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Kappel-Grafenhausen",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Gesch\u00e4ftlich",
+            "formattedValue": "L\u00f6wenstr. 8a\n77966 Kappel-Grafenhausen\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "8a L\u00f6wenstr",
+            "type": "Gesch\u00e4ftlich",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2894c3000ec0995a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "gc@casa-calabrese.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2894c3000ec0995a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491791339499",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 1339499",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2894c3000ec0995a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4978224268591",
+            "formattedType": "Home Fax",
+            "type": "homeFax",
+            "value": "+49 (7822) 4268591",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2894c3000ec0995a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4978226342",
+            "formattedType": "Work",
+            "type": "work",
+            "value": "+49 (7822) 6342",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2894c3000ec0995a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFFlRXZyOGFET3hNPQ==",
+    "resourceName": "people\/c6804286032444116260",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49761381771",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (761) 381771",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5e6dae1889fbcd24",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDERuSDB6UjJrUEMwPQ==",
+    "resourceName": "people\/c8944612108933526370",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49782141319",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7821) 41319",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7c21a5528ea3f362",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHRuVkxwSzhFTTNNPQ==",
+    "resourceName": "people\/c2483052522507789528",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917666129523",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 176 66129523",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2275931d0ab6e4d8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDEI3NWVxOGIvVEgwPQ==",
+    "resourceName": "people\/c4510599743470257887",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "t.del@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3e98de91898346df",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "kinderturnen@gsv-mietersheim.de",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3e98de91898346df",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915256109129",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 56109129",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3e98de91898346df",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGZpU0hpOU0zVmZNPQ==",
+    "resourceName": "people\/c6944654576752471175",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "mdeni@hotmail.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "60605e8b0f1f2c87",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491602019181",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (160) 2019181",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "60605e8b0f1f2c87",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFZoMlF5ZWszaDlvPQ==",
+    "resourceName": "people\/c8878972413618341273",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "Ebert.Frank@herrenknecht.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7b38725e0c36c599",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "ebertf@web.de",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7b38725e0c36c599",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915253446995",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (1525) 3446995",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7b38725e0c36c599",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c8587814856149836267",
+    "addresses": [
+        {
+            "city": "Freiburg",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "338 Z\u00e4hringerstr\nD\n79108 Freiburg",
+            "poBox": null,
+            "postalCode": "79108",
+            "region": null,
+            "streetAddress": "338 Z\u00e4hringerstr\nD",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "772e0c1c89a221eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": null,
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Gesch\u00e4ftlich",
+            "formattedValue": "Deutschland",
+            "poBox": null,
+            "postalCode": null,
+            "region": null,
+            "streetAddress": null,
+            "type": "Gesch\u00e4ftlich",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "772e0c1c89a221eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Freiburg",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Z\u00e4hringerstr. 338\n79108 Freiburg\n\nD",
+            "poBox": null,
+            "postalCode": "79108",
+            "region": null,
+            "streetAddress": "338 Z\u00e4hringerstr\nD",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "772e0c1c89a221eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "nonamesilona@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "772e0c1c89a221eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917623286292",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 23286292",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "772e0c1c89a221eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497615563702",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (761) 5563702",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "772e0c1c89a221eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDE0rbVdDeC9jbmZJPQ==",
+    "resourceName": "people\/c8860778515589411754",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "ehrlermelanie@gmail.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7af7cf1d0f1eb3aa",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491733112381",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (173) 3112381",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7af7cf1d0f1eb3aa",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c3315720407007397198",
+    "addresses": [
+        {
+            "city": null,
+            "country": "DE",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "10 Brandensteinweg\n77972\n\nDE",
+            "poBox": null,
+            "postalCode": "77972",
+            "region": null,
+            "streetAddress": "10 Brandensteinweg",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2e03ce248a30854e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": null,
+            "country": "DE",
+            "countryCode": null,
+            "extendedAddress": "Orschweier",
+            "formattedType": "Privat",
+            "formattedValue": "Brandensteinweg 10\n77972 Orschweier",
+            "poBox": null,
+            "postalCode": "77972",
+            "region": null,
+            "streetAddress": "10 Brandensteinweg",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2e03ce248a30854e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "j-peichhorn@gmx.net",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2e03ce248a30854e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4916094801160",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (160) 94801160",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2e03ce248a30854e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDlSbEJTNUtlNFBRPQ==",
+    "resourceName": "people\/c2935694747152221400",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491716936640",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (171) 6936640",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "28bdaed18cfd04d8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHU0YVhmMUcvTC80PQ==",
+    "resourceName": "people\/c8157851899361237955",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "fehr@quartier-freiburg.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "713683148fac1bc3",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491799058032",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 9058032",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "713683148fac1bc3",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDEhyeXNoWjgwSEhjPQ==",
+    "resourceName": "people\/c6687101092549144481",
+    "addresses": [
+        {
+            "city": "Freiburg",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "67 Sautierstr\n79104 Freiburg",
+            "poBox": null,
+            "postalCode": "79104",
+            "region": null,
+            "streetAddress": "67 Sautierstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5ccd5b038e84afa1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Freiburg",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Sautierstr. 67\n79104 Freiburg",
+            "poBox": null,
+            "postalCode": "79104",
+            "region": null,
+            "streetAddress": "67 Sautierstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5ccd5b038e84afa1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "ant@fussnote.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5ccd5b038e84afa1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491792296721",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 2296721",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5ccd5b038e84afa1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHJVdVhzZGQ3Zk1jPQ==",
+    "resourceName": "people\/c2238157462252671293",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "ma.fellner@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1f0f885a88f5d13d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491601571235",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (160) 1571235",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1f0f885a88f5d13d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDEc1NkR5QkdlTHpnPQ==",
+    "resourceName": "people\/c1112200322882913304",
+    "addresses": [
+        {
+            "city": "Freiburg im Breisgau",
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": "Work",
+            "formattedValue": "Achim-Stocker-Stra\u00dfe 1\n79108 Freiburg im Breisgau\nDE",
+            "poBox": null,
+            "postalCode": "79108",
+            "region": null,
+            "streetAddress": "Achim-Stocker-Stra\u00dfe 1",
+            "type": "work",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "f6f544d0c82c418",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "buero@fangemeinschaft.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "f6f544d0c82c418",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491707373728",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (170) 7373728",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "f6f544d0c82c418",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4976115065020",
+            "formattedType": "Work",
+            "type": "work",
+            "value": "+49 (761) 15065020",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "f6f544d0c82c418",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4976176998553",
+            "formattedType": "Home Fax",
+            "type": "homeFax",
+            "value": "+49 (761) 76998553",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "f6f544d0c82c418",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRYUHNRVmRkbmJVPQ==",
+    "resourceName": "people\/c3951179108611938908",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491707373728",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (170) 7373728",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "36d568770cc25a5c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDG5PWmwzZHBWSFZjPQ==",
+    "resourceName": "people\/c6104906513734160573",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915170161678",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (1517) 0161678",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "54b8fc210a17d0bd",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c1759263399049706740",
+    "addresses": [
+        {
+            "city": "Mahlberg",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "2 Untere Gasse\n77972 Mahlberg\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77972",
+            "region": null,
+            "streetAddress": "2 Untere Gasse",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "186a28bd8eb43cf4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Mahlberg",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Untere Gasse 2\n77972 Mahlberg\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77972",
+            "region": null,
+            "streetAddress": "2 Untere Gasse",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "186a28bd8eb43cf4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "rocky03@gmx.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "186a28bd8eb43cf4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915738362351",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (1573) 8362351",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "186a28bd8eb43cf4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497825870347",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7825) 870347",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "186a28bd8eb43cf4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDG9waHVRQktRejlNPQ==",
+    "resourceName": "people\/c7549715095309585624",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Home",
+            "type": "home",
+            "value": "daniel-fleig@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "68c5f9e10b550cd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Verein",
+            "type": "Verein",
+            "value": "handball1@gsv-mietersheim.de",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "68c5f9e10b550cd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491608456634",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (160) 8456634",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "68c5f9e10b550cd8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c6907188488166993925",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Gesch\u00e4ftlich",
+            "formattedValue": "5 Blumenstrasse\n77933 Lahr\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "5 Blumenstrasse",
+            "type": "Gesch\u00e4ftlich",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5fdb435589dc7005",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Blumenstrasse 5\n77933 Lahr\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "5 Blumenstrasse",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5fdb435589dc7005",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "stefan.fleig@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5fdb435589dc7005",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491757677634",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (175) 7677634",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5fdb435589dc7005",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497825870568",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7825) 870568",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5fdb435589dc7005",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHhWNkpaZWNEVTE4PQ==",
+    "resourceName": "people\/c1042802277793856576",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "florimirov@loewenfront.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "e78c7258adefc40",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGNVNi9VYW9PT20wPQ==",
+    "resourceName": "people\/c2207391419652526025",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491718037327",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 171 8037327",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1ea23acd08a24fc9",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFZBNWZ2QVJIV1hvPQ==",
+    "resourceName": "people\/c8946174764077115371",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "Finanzen@gsv-mietersheim.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7c27328c8f6167eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491799317585",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 9317585",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7c27328c8f6167eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4978219543567",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7821) 9543567",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7c27328c8f6167eb",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGkrYlR2ajZ1eVF3PQ==",
+    "resourceName": "people\/c8005263024211604306",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915222501337",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (1522) 2501337",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6f18684e8bb3b352",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c1148968696111303294",
+    "addresses": [
+        {
+            "city": "Bahlingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "8 Bahnhofstr\n79353 Bahlingen",
+            "poBox": null,
+            "postalCode": "79353",
+            "region": null,
+            "streetAddress": "8 Bahnhofstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "ff1f4f10dc20a7e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Bahlingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Bahnhofstr. 8\n79353 Bahlingen",
+            "poBox": null,
+            "postalCode": "79353",
+            "region": null,
+            "streetAddress": "8 Bahnhofstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "ff1f4f10dc20a7e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "freund.axel74@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "ff1f4f10dc20a7e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915222027165",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 22027165",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "ff1f4f10dc20a7e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497663913380",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7663) 913380",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "ff1f4f10dc20a7e",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGROSlFid0JRUXlRPQ==",
+    "resourceName": "people\/c2729984269092191973",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "katjafriese13@gmail.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "25e2da3a89a4fee5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFhlNmZBUGJ1Ris4PQ==",
+    "resourceName": "people\/c4890918526375776899",
+    "addresses": [
+        {
+            "city": "Endingen am Kaiserstuhl",
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "K\u00f6nigschaffhauser Str. 14A\n79346 Endingen am Kaiserstuhl\nDE",
+            "poBox": null,
+            "postalCode": "79346",
+            "region": null,
+            "streetAddress": "K\u00f6nigschaffhauser Str. 14A",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "43e0087c8e015283",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Home",
+            "type": "home",
+            "value": "katjafuenfgeld@yahoo.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "43e0087c8e015283",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915221637359",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 21637359",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "43e0087c8e015283",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4976424978758",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7642) 4978758",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "43e0087c8e015283",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c4352455867220285803",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "79 Sulzbergstr\n77933 Lahr\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "79 Sulzbergstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3c67078d0a3ad96b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": "Sulz",
+            "formattedType": "Privat",
+            "formattedValue": "Sulzbergstr. 79\n77933 Lahr - Sulz\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "79 Sulzbergstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3c67078d0a3ad96b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "yfuessgen@t-online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3c67078d0a3ad96b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917643183949",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 176 43183949",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3c67078d0a3ad96b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497821908342",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 7821 908342",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3c67078d0a3ad96b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c31724947944850737",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "15 Salzbrunnenstr\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "15 Salzbrunnenstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "70b5ac0cc54531",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Salzbrunnenstr. 15\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "15 Salzbrunnenstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "70b5ac0cc54531",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "m.gaenshirt@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "70b5ac0cc54531",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917680522657",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 80522657",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "70b5ac0cc54531",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+49782130974",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7821) 30974",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "70b5ac0cc54531",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c7822552347331206133",
+    "addresses": [
+        {
+            "city": "March",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "29a Holzhauser Str\nD\n79232 March",
+            "poBox": null,
+            "postalCode": "79232",
+            "region": null,
+            "streetAddress": "29a Holzhauser Str\nD",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6c8f49ea0b931bf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "March",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": "Buchheim",
+            "formattedType": "Privat",
+            "formattedValue": "Holzhauser Str. 29a\n79232 March-Buchheim\n\nD",
+            "poBox": null,
+            "postalCode": "79232",
+            "region": null,
+            "streetAddress": "29a Holzhauser Str\nD",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6c8f49ea0b931bf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "dirk.gaertner@fangemeinschaft.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6c8f49ea0b931bf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "dirk.gaertner@me.com",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6c8f49ea0b931bf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491714945156",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (171) 4945156",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6c8f49ea0b931bf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4976659390590",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7665) 9390590",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6c8f49ea0b931bf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c3275436744791555715",
+    "addresses": [
+        {
+            "city": null,
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "2 Industriestr\n77966",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "2 Industriestr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d74b05d898ffe83",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": null,
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": "Kappel",
+            "formattedType": "Privat",
+            "formattedValue": "Industriestr. 2\n77966 Kappel",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "2 Industriestr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d74b05d898ffe83",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "gauch.matthias@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d74b05d898ffe83",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915256186406",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 56186406",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d74b05d898ffe83",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497824663823",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7824) 663823",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d74b05d898ffe83",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDEtFeFVwcUVKekdvPQ==",
+    "resourceName": "people\/c1548113310493303105",
+    "addresses": [
+        {
+            "city": "Neuenburg",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "2a Johanniterstr\nD\n79395 Neuenburg",
+            "poBox": null,
+            "postalCode": "79395",
+            "region": null,
+            "streetAddress": "2a Johanniterstr\nD",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "157c00da8801e141",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Neuenburg",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Johanniterstr. 2a\n79395 Neuenburg\n\nD",
+            "poBox": null,
+            "postalCode": "79395",
+            "region": null,
+            "streetAddress": "2a Johanniterstr\nD",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "157c00da8801e141",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "FR-UltraGirl@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "157c00da8801e141",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491737136896",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (173) 7136896",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "157c00da8801e141",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4976311836114",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7631) 1836114",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "157c00da8801e141",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRyL2xrc1JFc2JVPQ==",
+    "resourceName": "people\/c3392095626444258077",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "bgehring@t-online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2f1325000a5dbb1d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFBTMnFUNVc2d1UwPQ==",
+    "resourceName": "people\/c7930750564376501749",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "gehring-sebastian@t-online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6e0faf9e8fe3ddf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915162671461",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 1516 2671461",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6e0faf9e8fe3ddf5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c7984014588370930118",
+    "addresses": [
+        {
+            "city": "Schuttertal",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "2 Hessenberg\n77978 Schuttertal",
+            "poBox": null,
+            "postalCode": "77978",
+            "region": null,
+            "streetAddress": "2 Hessenberg",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6ecceaf78d62c9c6",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Schuttertal",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Hessenberg 2\n77978 Schuttertal",
+            "poBox": null,
+            "postalCode": "77978",
+            "region": null,
+            "streetAddress": "2 Hessenberg",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6ecceaf78d62c9c6",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "nadinegeiger@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6ecceaf78d62c9c6",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491701671282",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (170) 1671282",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "6ecceaf78d62c9c6",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c1007283538289171668",
+    "addresses": [
+        {
+            "city": "Bad Krozingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "15 Kirchhofener Str\n79198 Bad Krozingen",
+            "poBox": null,
+            "postalCode": "79198",
+            "region": null,
+            "streetAddress": "15 Kirchhofener Str",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "dfa970a8fd31cd4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Bad Krozingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Kirchhofener Str. 15\n79198 Bad Krozingen",
+            "poBox": null,
+            "postalCode": "79198",
+            "region": null,
+            "streetAddress": "15 Kirchhofener Str",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "dfa970a8fd31cd4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "jennifer.gerbel@googlemail.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "dfa970a8fd31cd4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917628718957",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 28718957",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "dfa970a8fd31cd4",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGhzMlNvWlJ1YTFvPQ==",
+    "resourceName": "people\/c1441668325059039401",
+    "addresses": [
+        {
+            "city": null,
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": null,
+            "formattedValue": "Hauptstr. 13\nDE",
+            "poBox": null,
+            "postalCode": null,
+            "region": null,
+            "streetAddress": "Hauptstr. 13",
+            "type": null,
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1401d5b40f1390a9",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915170867902",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 1517 0867902",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1401d5b40f1390a9",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c6506095816211628897",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "34 Blockschluck\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "34 Blockschluck",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5a4a4bac8ff30361",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": "Mietersheim",
+            "formattedType": "Privat",
+            "formattedValue": "Blockschluck 34\n77933 Lahr-Mietersheim",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "34 Blockschluck",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5a4a4bac8ff30361",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "juergen.glanzmann@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5a4a4bac8ff30361",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491711970147",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (171) 1970147",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5a4a4bac8ff30361",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFVZc1ZaTUhhVWhBPQ==",
+    "resourceName": "people\/c3489174836696126274",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "glunk@scfreiburg.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "306c0a070c811342",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c6364094329604798768",
+    "addresses": [
+        {
+            "city": "Grafenhausen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "6 Hansjakobstr\n77966 Grafenhausen",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "6 Hansjakobstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5851ce13092bf930",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Grafenhausen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Hansjakobstr. 6\n77966 Grafenhausen",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "6 Hansjakobstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5851ce13092bf930",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "Sonja.god@t-online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5851ce13092bf930",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915142237506",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (1514) 2237506",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5851ce13092bf930",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c2262653387401500503",
+    "addresses": [
+        {
+            "city": "R\u00fcmmingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "a 7\nDorfstr. 1\nR\u00fcmmingen",
+            "poBox": null,
+            "postalCode": null,
+            "region": null,
+            "streetAddress": "a 7\nDorfstr. 1",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1f668f448de69757",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "R\u00fcmmingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Dorfstr. 1.a\n7 R\u00fcmmingen",
+            "poBox": null,
+            "postalCode": null,
+            "region": null,
+            "streetAddress": "a 7\nDorfstr. 1",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1f668f448de69757",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "elligonschorek@online.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1f668f448de69757",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915233663735",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 33663735",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1f668f448de69757",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c1880499674201673069",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "1 Brunnenstr\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "1 Brunnenstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1a18e07d89074d6d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Brunnenstr. 1\n77933 Lahr",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "1 Brunnenstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1a18e07d89074d6d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "daniel.gremm@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1a18e07d89074d6d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917670942146",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 70942146",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "1a18e07d89074d6d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFh2SkMxcDVGSk8wPQ==",
+    "resourceName": "people\/c4122961893963167251",
+    "addresses": [
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "1 Brunnenstr\n77933 Lahr\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "1 Brunnenstr",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3937b3ff88257613",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Lahr",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": "Mietersheim",
+            "formattedType": "Privat",
+            "formattedValue": "Brunnenstr. 1\n77933 Lahr - Mietersheim\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "1 Brunnenstr",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3937b3ff88257613",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "die.bezaubernde@web.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3937b3ff88257613",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491799122236",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 9122236",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "3937b3ff88257613",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDExua0RzY1hwbFQwPQ==",
+    "resourceName": "people\/c8094820249861558089",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "marcogromoll@live.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7056942109a30f49",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491605145317",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (160) 5145317",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7056942109a30f49",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c4151431338162803416",
+    "addresses": [
+        {
+            "city": "Kappel-Grafenhausen",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "4 Am Richtergraben\n77966 Kappel-Grafenhausen\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "4 Am Richtergraben",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "399cd8ce8c9e52d8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Kappel-Grafenhausen",
+            "country": "Deutschland",
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Am Richtergraben 4\n77966 Kappel-Grafenhausen\n\nDeutschland",
+            "poBox": null,
+            "postalCode": "77966",
+            "region": null,
+            "streetAddress": "4 Am Richtergraben",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "399cd8ce8c9e52d8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "ch.groesch@metallbau-groesch.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "399cd8ce8c9e52d8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49782278380",
+            "formattedType": "Work",
+            "type": "work",
+            "value": "+49 (7822) 78380",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "399cd8ce8c9e52d8",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDhEeTFad2kwWC9ZPQ==",
+    "resourceName": "people\/c5837633037506107836",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915207662611",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (1520) 7662611",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5103705189a2d9bc",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+4978214807",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7821) 4807",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "5103705189a2d9bc",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGpwdUlWd3V0ZGlNPQ==",
+    "resourceName": "people\/c8970930115849520809",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "matthias.guenter@supporterscrew.org",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "7c7f25690c1086a9",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDFdISnN6YlI5aTZvPQ==",
+    "resourceName": "people\/c967467552919180751",
+    "addresses": [
+        {
+            "city": "Lahr\/Schwarzwald",
+            "country": "DE",
+            "countryCode": "DE",
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "Bismarckstra\u00dfe 29\n77933 Lahr\/Schwarzwald\nDE",
+            "poBox": null,
+            "postalCode": "77933",
+            "region": null,
+            "streetAddress": "Bismarckstra\u00dfe 29",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "d6d229d0f76d5cf",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Other",
+            "type": "other",
+            "value": "info@sanitaer-guer.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "d6d229d0f76d5cf",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+49782121793",
+            "formattedType": "Home Fax",
+            "type": "homeFax",
+            "value": "+49 (7821) 21793",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "d6d229d0f76d5cf",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+49782122884",
+            "formattedType": "Work",
+            "type": "work",
+            "value": "+49 (7821) 22884",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "d6d229d0f76d5cf",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c5207574881534057786",
+    "addresses": [
+        {
+            "city": "Bahlingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "6 Riegeler Str\n79353 Bahlingen",
+            "poBox": null,
+            "postalCode": "79353",
+            "region": null,
+            "streetAddress": "6 Riegeler Str",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "484505c38b159d3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Bahlingen",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Riegeler Str. 6\n79353 Bahlingen",
+            "poBox": null,
+            "postalCode": "79353",
+            "region": null,
+            "streetAddress": "6 Riegeler Str",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "484505c38b159d3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "pattigu@me.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "484505c38b159d3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491736764726",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (173) 6764726",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "484505c38b159d3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+49766399299",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7663) 99299",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "484505c38b159d3a",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDC9saWxMSmxBQjJFPQ==",
+    "resourceName": "people\/c3258758658853331536",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915231709779",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 152 31709779",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d396fbc0dae6250",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHM4NlQzQ1Y5aHJJPQ==",
+    "resourceName": "people\/c4137620106300054332",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491797948036",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (179) 7948036",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "396bc7908b875b3c",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHA1STY1dFByUko4PQ==",
+    "resourceName": "people\/c4812602288765224687",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "steph73@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "42c9cc488b1546ef",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917622266095",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 22266095",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "42c9cc488b1546ef",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDC96VG9zdURRYTZ3PQ==",
+    "resourceName": "people\/c5706480133817455061",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+497821990751",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7821) 990751",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "4f317d728e0351d5",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDd5eUNLZFVqSWpnPQ==",
+    "resourceName": "people\/c720028476196365087",
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917683208269",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 83208269",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "9fe0e158fd9a31f",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGtEc2dSLzM0b1RNPQ==",
+    "resourceName": "people\/c3202701095699798555",
+    "addresses": [
+        {
+            "city": "Karlsruhe",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "6 Tiroler Stra\u00dfe\n76227 Karlsruhe",
+            "poBox": null,
+            "postalCode": "76227",
+            "region": null,
+            "streetAddress": "6 Tiroler Stra\u00dfe",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2c7247ad8af0da1b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Karlsruhe",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Tiroler Stra\u00dfe 6\n76227 Karlsruhe",
+            "poBox": null,
+            "postalCode": "76227",
+            "region": null,
+            "streetAddress": "6 Tiroler Stra\u00dfe",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2c7247ad8af0da1b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "Tobias.Haid@gmx.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2c7247ad8af0da1b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4917622820313",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (176) 22820313",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2c7247ad8af0da1b",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDDJtOHkwbUhqNnl3PQ==",
+    "resourceName": "people\/c3278525064733469811",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "p.hangs@ifp2.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "2d7fa92d0ea72c73",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c4695880251815170333",
+    "addresses": [
+        {
+            "city": "Breisach",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "26 Leopoldschanze\n79206 Breisach",
+            "poBox": null,
+            "postalCode": "79206",
+            "region": null,
+            "streetAddress": "26 Leopoldschanze",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "412b1e358d37111d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Breisach",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Leopoldschanze 26\n79206 Breisach",
+            "poBox": null,
+            "postalCode": "79206",
+            "region": null,
+            "streetAddress": "26 Leopoldschanze",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "412b1e358d37111d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "e.harnischmacher@gmx.net",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "412b1e358d37111d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491742065245",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (174) 2065245",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "412b1e358d37111d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "canonicalForm": "+497667353",
+            "formattedType": "Home",
+            "type": "home",
+            "value": "+49 (7667) 353",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "412b1e358d37111d",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDGRQVUlQcDJOZm9zPQ==",
+    "resourceName": "people\/c1711656695112385520",
+    "addresses": [
+        {
+            "city": "Wolfach",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Home",
+            "formattedValue": "3 Inselweg\n77709 Wolfach",
+            "poBox": null,
+            "postalCode": "77709",
+            "region": null,
+            "streetAddress": "3 Inselweg",
+            "type": "home",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "17c106b20997c3f0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        },
+        {
+            "city": "Wolfach",
+            "country": null,
+            "countryCode": null,
+            "extendedAddress": null,
+            "formattedType": "Privat",
+            "formattedValue": "Inselweg 3\n77709 Wolfach",
+            "poBox": null,
+            "postalCode": "77709",
+            "region": null,
+            "streetAddress": "3 Inselweg",
+            "type": "Privat",
+            "metadata": {
+                "primary": null,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "17c106b20997c3f0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "betriebsrat@leipold.com",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "17c106b20997c3f0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+4915233802908",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (152) 33802908",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "17c106b20997c3f0",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}{
+    "ageRange": null,
+    "etag": "%EgkBCQsQLjc+P0AaBAECBQciDHd2RjJ1aDhyc2tJPQ==",
+    "resourceName": "people\/c5051561233950093761",
+    "emailAddresses": [
+        {
+            "displayName": null,
+            "formattedType": "Sonstige",
+            "type": "Sonstige",
+            "value": "fam.hartwich@arcor.de",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "461ac02d8ebab1c1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "canonicalForm": "+491786838735",
+            "formattedType": "Mobile",
+            "type": "mobile",
+            "value": "+49 (178) 6838735",
+            "metadata": {
+                "primary": true,
+                "sourcePrimary": null,
+                "verified": null,
+                "source": {
+                    "etag": null,
+                    "id": "461ac02d8ebab1c1",
+                    "type": "CONTACT",
+                    "updateTime": null
+                }
+            }
+        }
+    ]
+}</body></html>

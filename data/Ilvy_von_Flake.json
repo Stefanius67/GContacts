@@ -1,0 +1,243 @@
+{
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "displayName": "Ilvy von Flake",
+            "familyName": "von Flake",
+            "givenName": "Ilvy",
+            "displayNameLastFirst": "von Flake, Ilvy",
+            "unstructuredName": "Ilvy von Flake"
+        }
+    ],
+    "organizations": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "name": "Company 4711",
+            "title": "Nervens\u00e4ge"
+        }
+    ],
+    "nicknames": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "de kleene blond"
+        }
+    ],
+    "birthdays": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "date": {
+                "year": 2003,
+                "month": 4,
+                "day": 17
+            }
+        }
+    ],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/contacts\/AOq4LdZfN_9TanQL_uLy-llnko9cBKLi3eSDi0CvDTjyFq7XZhGSRfkL=s100"
+        }
+    ],
+    "addresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "formattedValue": "B\u00e4renweg. 4\n54321 Musterstadt",
+            "type": "home",
+            "formattedType": "Home",
+            "streetAddress": "B\u00e4renweg. 4",
+            "city": "Musterstadt",
+            "postalCode": "54321",
+            "countryCode": "DE"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "formattedValue": "Companystr. 8\n65432 Musterstadt\nNorwegen",
+            "type": "work",
+            "formattedType": "Work",
+            "streetAddress": "Companystr. 8",
+            "city": "Musterstadt",
+            "postalCode": "65432",
+            "country": "Norwegen",
+            "countryCode": "NO"
+        }
+    ],
+    "emailAddresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "private@web.de",
+            "type": "home",
+            "formattedType": "Home"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "president@club.de",
+            "type": "other",
+            "formattedType": "Other"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "work@company.de",
+            "type": "work",
+            "formattedType": "Work"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "+47 12345678",
+            "type": "home",
+            "formattedType": "Home"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "+47 12389765456",
+            "type": "mobile",
+            "formattedType": "Mobile"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "+47 123498356",
+            "type": "work",
+            "formattedType": "Work"
+        }
+    ],
+    "genders": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "female",
+            "formattedValue": "Female"
+        }
+    ],
+    "memberships": [
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "3ba275b00c16c5f4",
+                "contactGroupResourceName": "contactGroups\/3ba275b00c16c5f4"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "myContacts",
+                "contactGroupResourceName": "contactGroups\/myContacts"
+            }
+        }
+    ],
+    "metadata": {
+        "sources": [
+            {
+                "type": "CONTACT",
+                "id": "777266df0eda5cf8",
+                "etag": "#EVHlU5FRVeA=",
+                "updateTime": "2023-04-20T16:44:34.391804Z"
+            }
+        ],
+        "objectType": "PERSON"
+    },
+    "biographies": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "777266df0eda5cf8"
+                }
+            },
+            "value": "Die Freundin von Wickie",
+            "contentType": "TEXT_PLAIN"
+        }
+    ],
+    "urls": [],
+    "resourceName": "people\/c8607054946071371000",
+    "etag": "%EhMBAgMFBgcICQoLDBAuNTc9Pj9AGgQBAgUHIgxFVkhsVTVGUlZlQT0="
+}

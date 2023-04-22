@@ -1,0 +1,115 @@
+{
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "e1ac8d5886857b6"
+                }
+            },
+            "displayName": "Again a Test",
+            "familyName": "Test",
+            "givenName": "Again",
+            "middleName": "a",
+            "displayNameLastFirst": "Test, Again a",
+            "unstructuredName": "Again a Test"
+        }
+    ],
+    "organizations": [],
+    "nicknames": [],
+    "birthdays": [],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "e1ac8d5886857b6"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/contacts\/AOq4Ldbm-fDLgjb1OxTmFsMmoEwHvpsc0Djve0Y1FjhZ5ayY4SIasHyr=s100"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "PROFILE",
+                    "id": "107255371298912409328"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/a-\/ACB-R5RhSFDpNqVqz4JQ1dArDJDDAFdQ28nctzdZjpM=s100",
+            "default": true
+        }
+    ],
+    "addresses": [],
+    "emailAddresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "e1ac8d5886857b6"
+                },
+                "sourcePrimary": true
+            },
+            "value": "test@test.nl",
+            "type": "other",
+            "formattedType": "Other"
+        }
+    ],
+    "phoneNumbers": [],
+    "genders": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "e1ac8d5886857b6"
+                }
+            },
+            "value": "male",
+            "formattedValue": "Male"
+        }
+    ],
+    "memberships": [
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "e1ac8d5886857b6"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "myContacts",
+                "contactGroupResourceName": "contactGroups\/myContacts"
+            }
+        }
+    ],
+    "metadata": {
+        "sources": [
+            {
+                "type": "CONTACT",
+                "id": "e1ac8d5886857b6",
+                "etag": "#E93wsXYzVuw=",
+                "updateTime": "2023-04-22T12:47:40.466008Z"
+            },
+            {
+                "type": "PROFILE",
+                "id": "107255371298912409328",
+                "etag": "#eB1KIWd+ACo=",
+                "profileMetadata": {
+                    "objectType": "PERSON",
+                    "userTypes": [
+                        "GOOGLE_USER"
+                    ]
+                },
+                "updateTime": "2023-03-16T16:54:49.124853Z"
+            }
+        ],
+        "objectType": "PERSON"
+    },
+    "biographies": [],
+    "urls": [],
+    "resourceName": "people\/c1016345485367596982",
+    "etag": "%EhMBAgMFBgcICQoLDBAuNTc9Pj9AGgQBAgUHIgxFOTN3c1hZelZ1dz0="
+}

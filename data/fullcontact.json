@@ -1,0 +1,90 @@
+{
+  "resourceName": "people/c4403009008885404677",
+  "names": [
+    {
+      "displayName": "Prefix Firstname Middlename Lastname Suffix",
+      "familyName": "Lastname",
+      "givenName": "Firstname",
+      "middleName": "Middlename",
+      "honorificPrefix": "Prefix",
+      "honorificSuffix": "Suffix",
+      "displayNameLastFirst": "Lastname, Prefix Firstname Middlename, Suffix",
+      "unstructuredName": "Prefix Firstname Middlename Lastname Suffix"
+    }
+  ],
+  "nicknames": [
+    {
+      "value": "Nickname"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://lh3.googleusercontent.com/cm/AOLgnvtyQCeTNVJokhQqIpX5-4iNLZPqOoHxPnFyj0DJvDOFdFhmmGZPUf7jnkMlYzh0=s100",
+      "default": true
+    }
+  ],
+  "birthdays": [
+    {
+      "date": {
+        "year": 1995,
+        "month": 4,
+        "day": 3
+      },
+      "text": "03.04.1995"
+    }
+  ],
+  "addresses": [
+    {
+      "formattedValue": "Street 1\nPOSTCODE City\nDE",
+      "type": "home",
+      "formattedType": "Home",
+      "streetAddress": "Street 1",
+      "city": "City",
+      "postalCode": "POSTCODE",
+      "country": "DE",
+      "countryCode": "DE"
+    }
+  ],
+  "emailAddresses": [
+    {
+      "value": "private@mail1.de",
+      "type": "home",
+      "formattedType": "Home"
+    },
+    {
+      "value": "work@mail1.de",
+      "type": "work",
+      "formattedType": "Work"
+    },
+    {
+      "value": "other@mail1.de",
+      "type": "other",
+      "formattedType": "Other"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "value": "+49 123456",
+      "type": "home",
+      "formattedType": "Home"
+    },
+    {
+      "value": "+49  654321",
+      "canonicalForm": "+49654321",
+      "type": "work",
+      "formattedType": "Work"
+    },
+    {
+      "value": "+49  123 3456",
+      "type": "mobile",
+      "formattedType": "Mobile"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Company",
+      "department": "Section",
+      "title": "Position"
+    }
+  ]
+}

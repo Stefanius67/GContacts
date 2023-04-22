@@ -1,0 +1,79 @@
+{
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "121af9bf0a46cace"
+                }
+            },
+            "displayName": "second Test",
+            "familyName": "Test",
+            "givenName": "second",
+            "displayNameLastFirst": "Test, second",
+            "unstructuredName": "second Test"
+        }
+    ],
+    "organizations": [],
+    "nicknames": [],
+    "birthdays": [],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "121af9bf0a46cace"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/cm\/AOLgnvvTwb-U89TxIDdsr929XJJLWx3j4qVyhBCOAXNksOSNaB8SmlAfWdLudDieArQL=s100",
+            "default": true
+        }
+    ],
+    "addresses": [],
+    "emailAddresses": [],
+    "phoneNumbers": [],
+    "genders": [],
+    "memberships": [
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "121af9bf0a46cace"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "6407938b8d71cbb5",
+                "contactGroupResourceName": "contactGroups\/6407938b8d71cbb5"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "121af9bf0a46cace"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "myContacts",
+                "contactGroupResourceName": "contactGroups\/myContacts"
+            }
+        }
+    ],
+    "metadata": {
+        "sources": [
+            {
+                "type": "CONTACT",
+                "id": "121af9bf0a46cace",
+                "etag": "#h\/3cfTANSC0=",
+                "updateTime": "2023-04-20T13:59:58.671194Z"
+            }
+        ],
+        "objectType": "PERSON"
+    },
+    "biographies": [],
+    "urls": [],
+    "resourceName": "people\/c1304629640983661262",
+    "etag": "%EhMBAgMFBgcICQoLDBAuNTc9Pj9AGgQBAgUHIgxoLzNjZlRBTlNDMD0="
+}

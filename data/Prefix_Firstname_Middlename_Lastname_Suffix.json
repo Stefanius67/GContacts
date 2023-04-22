@@ -1,0 +1,301 @@
+{
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "displayName": "Prefix Firstname Middlename Lastname Suffix",
+            "familyName": "Lastname",
+            "givenName": "Firstname",
+            "middleName": "Middlename",
+            "honorificPrefix": "Prefix",
+            "honorificSuffix": "Suffix",
+            "displayNameLastFirst": "Lastname, Prefix Firstname Middlename, Suffix",
+            "unstructuredName": "Prefix Firstname Middlename Lastname Suffix"
+        }
+    ],
+    "organizations": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "name": "Company",
+            "department": "Section",
+            "title": "Position"
+        }
+    ],
+    "nicknames": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "Nickname"
+        }
+    ],
+    "birthdays": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "date": {
+                "year": 1995,
+                "month": 4,
+                "day": 3
+            },
+            "text": "03.04.1995"
+        }
+    ],
+    "photos": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "url": "https:\/\/lh3.googleusercontent.com\/cm\/AOLgnvtyQCeTNVJokhQqIpX5-4iNLZPqOoHxPnFyj0DJvDOFdFhmmGZPUf7jnkMlYzh0=s100",
+            "default": true
+        }
+    ],
+    "addresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "formattedValue": "Street 1\nPF21\n12345 City\nDE",
+            "type": "home",
+            "formattedType": "Home",
+            "poBox": "PF21",
+            "streetAddress": "Street 1",
+            "city": "City",
+            "postalCode": "12345",
+            "country": "DE",
+            "countryCode": "DE"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "formattedValue": "Rue de la quack quack\n54321 Strassbourg\nFR",
+            "type": "other",
+            "formattedType": "Other",
+            "streetAddress": "Rue de la quack quack",
+            "city": "Strassbourg",
+            "postalCode": "54321",
+            "country": "FR",
+            "countryCode": "FR"
+        }
+    ],
+    "emailAddresses": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "private@mail1.de",
+            "type": "home",
+            "formattedType": "Home"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "work@mail1.de",
+            "type": "work",
+            "formattedType": "Work"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "other@mail1.de",
+            "type": "other",
+            "formattedType": "Other"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "+49 123456",
+            "type": "home",
+            "formattedType": "Home"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "+49  654321",
+            "canonicalForm": "+49654321",
+            "type": "work",
+            "formattedType": "Work"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "+49  123 3456",
+            "type": "mobile",
+            "formattedType": "Mobile"
+        }
+    ],
+    "genders": [],
+    "memberships": [
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "5da9f9ab0efcbab6",
+                "contactGroupResourceName": "contactGroups\/5da9f9ab0efcbab6"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "5dcfc59b0a9f6080",
+                "contactGroupResourceName": "contactGroups\/5dcfc59b0a9f6080"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "74c2cc398a945a5f",
+                "contactGroupResourceName": "contactGroups\/74c2cc398a945a5f"
+            }
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "contactGroupMembership": {
+                "contactGroupId": "myContacts",
+                "contactGroupResourceName": "contactGroups\/myContacts"
+            }
+        }
+    ],
+    "metadata": {
+        "sources": [
+            {
+                "type": "CONTACT",
+                "id": "3d1aa15d8d759405",
+                "etag": "#dBLEj5NX5\/4=",
+                "updateTime": "2023-04-18T16:30:25.879086Z"
+            }
+        ],
+        "objectType": "PERSON"
+    },
+    "biographies": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "this is a multiline note\ncontaining two lines....",
+            "contentType": "TEXT_PLAIN"
+        }
+    ],
+    "urls": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "www.mywebsite.de",
+            "type": "homePage",
+            "formattedType": "Home Page"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "value": "www.company.de",
+            "type": "work",
+            "formattedType": "Work"
+        }
+    ],
+    "userDefined": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "CONTACT",
+                    "id": "3d1aa15d8d759405"
+                }
+            },
+            "key": "my Label",
+            "value": "userdefined"
+        }
+    ],
+    "resourceName": "people\/c4403009008885404677",
+    "etag": "%EhQBAgMFBgcICQoLDBAWLjU3PT4\/QBoEAQIFByIMZEJMRWo1Tlg1LzQ9"
+}
