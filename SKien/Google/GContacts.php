@@ -4,9 +4,25 @@ declare(strict_types=1);
 namespace SKien\Google;
 
 /**
- * Class representing the contacts of a google account.
+ * Class to manage the contacts of a google account.
  *
- * @link https://developers.google.com/people/api/rest
+ * This class encapsulates the following Google People API resources:
+ *  - people
+ *  - people.connections
+ *
+ * If one of the methods that calls the google API fails (if it returns `false`),
+ * the last responsecode and furter informations can be retrieved through
+ * following methods of the `GClient` instance this object was created with:
+ *  - `$oClient->getLastResponseCode()`
+ *  - `$oClient->getLastError()`
+ *  - `$oClient->getLastStatus()`
+ *
+ * @see \SKien\Google\GClient::getLastResponseCode()
+ * @see \SKien\Google\GClient::getLastError()
+ * @see \SKien\Google\GClient::getLastStatus()
+ *
+ * @link https://developers.google.com/people/api/rest/v1/people
+ * @link https://developers.google.com/people/api/rest/v1/people.connections
  *
  * @author Stefanius <s.kientzler@online.de>
  * @copyright MIT License - see the LICENSE file for details

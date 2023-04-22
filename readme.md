@@ -9,7 +9,7 @@
 ## Overview
 
 This package provides all classes and functions to manage the contacts of a Google account.
-Access is via the Google Perons API with OAutrh2 authentication.
+Access is via the Google Perons API with OAuth2 authentication.
 The following functionalities are supported:
 - Login and authentication to the google account
 - List contacts
