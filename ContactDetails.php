@@ -8,6 +8,7 @@ use SKien\Google\GContacts;
 use SKien\Google\GSecrets;
 
 require_once 'autoloader.php';
+require_once 'displayApiError.php';
 
 /**
  * This example is only intended to demonstrate the use of the package. The UI
@@ -29,7 +30,7 @@ if ($oClient->isAccessTokenExpired()) {
         header('Location: ./GoogleLogin.php');
         exit;
     }
-    $oClient->setOAuthClient($oSecrets->getOAuthClient());
+    $oClient->setOAuthClient($oSecrets->getClientSecrets());
     $oSecrets->saveAccessToken($oClient->refreshAccessToken($strRefreshToken));
 }
 
@@ -41,11 +42,33 @@ if (empty($strResourceName)) {
     $oContact = GContact::createEmpty();
 } else {
     $oContact = $oContacts->getContact($strResourceName);
+    if ($oContact === false) {
+        displayApiError(
+            'reading contact',
+            $strResourceName,
+            $oClient->getLastResponseCode(),
+            $oClient->getLastError(),
+            $oClient->getLastStatus()
+            );
+        exit;
+    }
 }
 $uxtsLastModified = $oContact->getLastModified();
 
 $oGroups = new GContactGroups($oClient);
-$aGroups = $oGroups->list(GContactGroups::GT_USER_CONTACT_GROUPS);
+$aGroups = $oGroups->list(GContactGroups::GT_ALL_CONTACT_GROUPS, GContactGroups::DATA_LIST);
+if ($aGroups === false) {
+    displayApiError(
+        'list contact groups',
+        '',
+        $oClient->getLastResponseCode(),
+        $oClient->getLastError(),
+        $oClient->getLastStatus()
+        );
+    exit;
+}
+
+/*
 $strGroups = '';
 foreach ($oContact['memberships'] as $aMembership) {
     if (isset($aMembership['contactGroupMembership'])) {
@@ -55,8 +78,12 @@ foreach ($oContact['memberships'] as $aMembership) {
         }
     }
 }
+*/
 
-file_put_contents('./data/' . str_replace(' ', '_', $oContact->getDisplayName()) . '.json', json_encode($oContact, JSON_PRETTY_PRINT));
+if (file_exists('data')) {
+    // this is just for debugging/testing to easy lock at the complete response data...
+    file_put_contents('./data/' . str_replace(' ', '_', $oContact->getDisplayName()) . '.json', json_encode($oContact, JSON_PRETTY_PRINT));
+}
 
 $strTitle = $oContact->getDisplayName();
 if ($oContact->isStarred()) {
@@ -141,13 +168,25 @@ function deletePhoto(strResourceName)
 		<p>Letzte Änderung: <?php if ($uxtsLastModified > 0) echo date('d.m.Y - H:i:s', $uxtsLastModified); ?></p>
 		<div>
 <?php
-if (strlen($strGroups) > 0) {
+$iVisibleGroups = 0;
+$strGroups = '';
+foreach ($aGroups as $aGroup) {
+    $strChecked = ($oContact->belongsToGroup($aGroup['resourceName']) ? ' checked' : '');
+    if ($aGroup['groupType'] == GContactGroups::GT_SYSTEM_CONTACT_GROUPS) {
+        $strGroups .= '                <input type="checkbox" name="memberships[]" value="' . $aGroup['resourceName'] . '"' . $strChecked . ' style="display: none;">' . PHP_EOL;
+    } else {
+        $strGroups .= '                <input type="checkbox" name="memberships[]" value="' . $aGroup['resourceName'] . '"' . $strChecked . '>';
+        $strGroups .= '&nbsp;' . $aGroup['formattedName'] . '<br/>' . PHP_EOL;
+        $iVisibleGroups++;
+    }
+}
+if ($iVisibleGroups > 0) {
     echo '            <fieldset>' . PHP_EOL;
     echo '                <legend>Member of</legend>' . PHP_EOL;
-    echo '                <ul>' . PHP_EOL;
     echo $strGroups;
-    echo '                </ul>' . PHP_EOL;
     echo '            </fieldset>' . PHP_EOL;
+} else {
+    echo $strGroups;
 }
 ?>
 			<fieldset>
@@ -206,7 +245,7 @@ foreach ($oContact['phoneNumbers'] as $aPhone) {
     $strType = 'phoneType' . $i;
     $strPrimary = $oContact->isPrimaryItem($aPhone) ? ' checked' : '';
     echo '                <label for="' . $strField . '">' . $strField . ':</label>' . PHP_EOL;
-    echo '                <input type="tel" id="' . $strField . '" name="' . $strFieldName . '" value="' . $aPhone['value'] . '">' . PHP_EOL;
+    echo '                <input type="tel" id="' . $strField . '" name="' . $strFieldName . '" value="' . ($aPhone['value'] ?? '') . '">' . PHP_EOL;
     echo '                <label class="ptype" for="' . $strType . '">type:</label>' . PHP_EOL;
     echo '                <input class="ptype" type="text" id="' . $strType . '" name="' . $strTypeName . '" value="' . ($aPhone['type'] ?? 'other') . '">' . PHP_EOL;
     echo '                <input type="radio" name="phoneNumbers" value="' . ($i-1) . '"' . $strPrimary . '>&nbsp;primary phone' . PHP_EOL;
@@ -225,7 +264,7 @@ foreach ($oContact['emailAddresses'] as $aMail) {
     $strType = 'emailType' . $i;
     $strPrimary = $oContact->isPrimaryItem($aMail) ? ' checked' : '';
     echo '                <label for="' . $strField . '">' . $strField . ':</label>' . PHP_EOL;
-    echo '                <input class="mail" type="text" id="' . $strField . '" name="' . $strFieldName . '" value="' . $aMail['value'] . '">' . PHP_EOL;
+    echo '                <input class="mail" type="text" id="' . $strField . '" name="' . $strFieldName . '" value="' . ($aMail['value'] ?? '') . '">' . PHP_EOL;
     echo '                <label class="ptype" for="' . $strType . '">type:</label>' . PHP_EOL;
     echo '                <input class="ptype" type="text" id="' . $strType . '" name="' . $strTypeName . '" value="' . ($aMail['type'] ?? 'other') . '">' . PHP_EOL;
     echo '                <input type="radio" name="emailAddresses" value="' . ($i-1) . '"' . $strPrimary . '>&nbsp;primary email' . PHP_EOL;
@@ -256,16 +295,16 @@ foreach ($oContact['addresses'] as $aAdr) {
     }
     $strPrimary = $oContact->isPrimaryItem($aAdr) ? ' checked' : '';
     echo '                <label for="adrType' . $i . '">type:</label>' . PHP_EOL;
-    echo '                <input class="ptype" type="text" id="adrType' . $i . '" name="addresses_' . ($i-1) . '_type" value="' . $aAdr['type'] . '">' . PHP_EOL;
+    echo '                <input class="ptype" type="text" id="adrType' . $i . '" name="addresses_' . ($i-1) . '_type" value="' . ($aAdr['type'] ?? 'home') . '">' . PHP_EOL;
     echo '                <input type="radio" name="addresses" value="' . ($i-1) . '"' . $strPrimary . '>&nbsp;primary address' . PHP_EOL;
     echo '                <br/>' . PHP_EOL;
     echo '                <label for="adrStreet' . $i . '">adrStreet:</label>' . PHP_EOL;
-    echo '                <input class="city" type="text" id="adrStreet' . $i . '" name="addresses_' . ($i-1) . '_streetAddress" value="' . $aAdr['streetAddress'] . '">' . PHP_EOL;
+    echo '                <input class="city" type="text" id="adrStreet' . $i . '" name="addresses_' . ($i-1) . '_streetAddress" value="' . ($aAdr['streetAddress'] ?? '') . '">' . PHP_EOL;
     echo '                <input class="ptype" type="text" id="extendedAddress' . $i . '" name="addresses_' . ($i-1) . '_extendedAddress" value="' . ($aAdr['extendedAddress'] ?? '') . '">' . PHP_EOL;
     echo '                <br/>' . PHP_EOL;
     echo '                <label for="adrPostcode' . $i . '">adrPostcode/adrCity:</label>' . PHP_EOL;
-    echo '                <input class="ptype" type="text" id="adrPostcode' . $i . '" name="addresses_' . ($i-1) . '_postalCode" value="' . $aAdr['postalCode'] . '">' . PHP_EOL;
-    echo '                <input class="city" type="text" id="adrCity' . $i . '" name="addresses_' . ($i-1) . '_city" value="' . $aAdr['city'] . '">' . PHP_EOL;
+    echo '                <input class="ptype" type="text" id="adrPostcode' . $i . '" name="addresses_' . ($i-1) . '_postalCode" value="' . ($aAdr['postalCode'] ?? '') . '">' . PHP_EOL;
+    echo '                <input class="city" type="text" id="adrCity' . $i . '" name="addresses_' . ($i-1) . '_city" value="' . ($aAdr['city'] ?? '') . '">' . PHP_EOL;
     echo '                <br/>' . PHP_EOL;
     echo '                <label for="adrCountry' . $i . '">adrCountry/Code:</label>' . PHP_EOL;
     echo '                <input class="city" type="text" id="adrCountry' . $i . '" name="addresses_' . ($i-1) . '_country" value="' . ($aAdr['country'] ?? '') . '">' . PHP_EOL;
