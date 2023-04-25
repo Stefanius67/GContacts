@@ -29,7 +29,7 @@ if ($oClient->isAccessTokenExpired()) {
         header('Location: ./GoogleLogin.php');
         exit;
     }
-    $oClient->setOAuthClient($oSecrets->getOAuthClient());
+    $oClient->setOAuthClient($oSecrets->getClientSecrets());
     $oSecrets->saveAccessToken($oClient->refreshAccessToken($strRefreshToken));
 }
 
@@ -39,6 +39,16 @@ $strGroup = $_REQUEST['group'] ?? '';
 // load available user defined contact groups
 $oGroups = new GContactGroups($oClient);
 $aGroups = $oGroups->list(GContactGroups::GT_USER_CONTACT_GROUPS);
+if ($aGroups === false) {
+    displayApiError(
+        'list contact groups',
+        '',
+        $oClient->getLastResponseCode(),
+        $oClient->getLastError(),
+        $oClient->getLastStatus()
+        );
+    exit;
+}
 $strGroupSelect  = '<select id="group" onchange="onSelectGroup(this);">' . PHP_EOL;
 $strGroupSelect .= '                <option value="">&lt;all contacts&gt;</option>' . PHP_EOL;
 foreach ($aGroups as $strGroupResourceName => $strGroupName) {
@@ -56,11 +66,30 @@ if (!empty($strSearch)) {
     $oContacts->setPageSize(50);
     $aContactList = $oContacts->search($strSearch);
     $strTitle = ' - Search for <b><i>[' . $strSearch . ']</i></b>';
+    if ($aContactList === false) {
+        displayApiError(
+            'search contacts',
+            'search: ' . $strSearch,
+            $oClient->getLastResponseCode(),
+            $oClient->getLastError(),
+            $oClient->getLastStatus()
+            );
+        exit;
+    }
 } else {
     $aContactList = $oContacts->list(GContacts::SO_LAST_NAME_ASCENDING, $strGroup);
+    if ($aContactList === false) {
+        displayApiError(
+            'list contacts',
+            'group: ' . $strGroup,
+            $oClient->getLastResponseCode(),
+            $oClient->getLastError(),
+            $oClient->getLastStatus()
+            );
+        exit;
+    }
 }
 $strTitle = count($aContactList) . ' Contacts' . $strTitle;
-
 ?>
 <html>
 <head>
