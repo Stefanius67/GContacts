@@ -174,6 +174,16 @@ class GContact extends \ArrayObject
                 'etag' => '',
             ]],
         ];
+        $aCreatePersonFields = [
+            self::PF_ADDRESSES,
+            self::PF_PHONE_NUMBERS,
+            self::PF_EMAIL_ADDRESSES,
+        ];
+        foreach ($aCreatePersonFields as $strFields) {
+            if (isset($aEmpty[$strFields])) {
+                $aEmpty[$strFields][0] = [];
+            }
+        }
         return new GContact($aEmpty);
     }
 
