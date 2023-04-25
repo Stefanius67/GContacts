@@ -71,7 +71,7 @@ class GContact extends \ArrayObject
      *  @link https://developers.google.com/people/api/rest/v1/people#Person.MiscKeyword     */
     public const PF_MISC_KEYWORDS = 'miscKeywords';
     /** Array - singleton containuing all names (except nicknames) of the person
-      * @link https://developers.google.com/people/api/rest/v1/people#Person.Name      */
+     *  @link https://developers.google.com/people/api/rest/v1/people#Person.Name      */
     public const PF_NAMES = 'names';
     /** Array with the person's nicknames
      *  @link https://developers.google.com/people/api/rest/v1/people#Person.Nickname     */
@@ -388,7 +388,7 @@ class GContact extends \ArrayObject
         }
         if ($iType == self::DT_UNIX_TIMESTAMP) {
             $result = $uxtsBirth;
-        } else if ($iType ==  self::DT_OBJECT) {
+        } else if ($iType == self::DT_OBJECT) {
             $dtBirth = null;
             if ($uxtsBirth > 0) {
                 $dtBirth = new \DateTime();

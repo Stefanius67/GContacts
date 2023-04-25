@@ -521,7 +521,7 @@ class GClient
             $result = is_string($strResponse) ? substr($strResponse, $iHeaderSize) : '';
         } else {
             $strError = is_string($strResponse) ? substr($strResponse, $iHeaderSize) : '';
-            if (strlen($strError) > 0)  {
+            if (strlen($strError) > 0) {
                 $aError = json_decode($strError, true);
                 if (isset($aError['error'])) {
                     $this->strLastError = $aError['error']['message'] ?? '';
@@ -558,11 +558,11 @@ class GClient
     {
         $aHeader = [];
         $strHeader = trim($strHeader);
-        $aLine = explode("\n",$strHeader);
+        $aLine = explode("\n", $strHeader);
         $aHeader['status'] = $aLine[0];
         array_shift($aLine);
 
-        foreach($aLine as $strLine){
+        foreach ($aLine as $strLine){
             // only consider the first colon, since other colons can also appear in
             // the header value - the rest of such a value would be lost
             // (eg "Location: https: // www ...." - "// www ...." would be gone !)

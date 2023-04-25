@@ -34,10 +34,10 @@ class GContacts
     /** readonly access to the users contacts */
     public const CONTACTS_READONLY = "https://www.googleapis.com/auth/contacts.readonly";
     /** readonly access to the users other contacts */
-    public const CONTACTS_OTHER_READONLY ="https://www.googleapis.com/auth/contacts.other.readonly";
+    public const CONTACTS_OTHER_READONLY = "https://www.googleapis.com/auth/contacts.other.readonly";
 
     /**	Sort people by when they were changed; older entries first. */
-    public const SO_LAST_MODIFIED_ASCENDING ='LAST_MODIFIED_ASCENDING';
+    public const SO_LAST_MODIFIED_ASCENDING = 'LAST_MODIFIED_ASCENDING';
     /**	Sort people by when they were changed; newer entries first. */
     public const SO_LAST_MODIFIED_DESCENDING = 'LAST_MODIFIED_DESCENDING';
     /**	Sort people by first name. */
@@ -205,7 +205,7 @@ class GContacts
             'readMask' => implode(',', $this->aPersonFields),
             'pageSize' => ($this->iPageSize > self::SEARCH_MAX_PAGESIZE ? self::SEARCH_MAX_PAGESIZE : $this->iPageSize),
         ];
-        $strURI = 'https://people.googleapis.com/v1/people:searchContacts?' . http_build_query($aParams);;
+        $strURI = 'https://people.googleapis.com/v1/people:searchContacts?' . http_build_query($aParams);
 
         // 'warmup' request
         // Note from google documentation:
@@ -213,7 +213,7 @@ class GContacts
         // https://developers.google.com/people/v1/contacts#search_the_users_contacts
         $this->oClient->fetchJsonResponse($strURI, GClient::GET, $aHeader);
         $aParams['query'] = $strQuery;
-        $strURI = 'https://people.googleapis.com/v1/people:searchContacts?' . http_build_query($aParams);;
+        $strURI = 'https://people.googleapis.com/v1/people:searchContacts?' . http_build_query($aParams);
 
         $aContactList = false;
         if (($strResponse = $this->oClient->fetchJsonResponse($strURI, GClient::GET, $aHeader)) !== false) {
@@ -246,7 +246,7 @@ class GContacts
             'personFields' => implode(',', $this->aPersonFields),
         ];
 
-        $strURI = 'https://people.googleapis.com/v1/' . $strResourceName . '?' . http_build_query($aParams);;
+        $strURI = 'https://people.googleapis.com/v1/' . $strResourceName . '?' . http_build_query($aParams);
         $strResponse = $this->oClient->fetchJsonResponse($strURI, GClient::GET, $aHeader);
 
         $result = false;
