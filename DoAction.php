@@ -8,6 +8,7 @@ use SKien\Google\GContacts;
 use SKien\Google\GSecrets;
 
 require_once 'autoloader.php';
+require_once 'displayApiError.php';
 
 /**
  * This example is only intended to demonstrate the use of the package. The UI
@@ -29,7 +30,7 @@ if ($oClient->isAccessTokenExpired()) {
         header('Location: ./GoogleLogin.php');
         exit;
     }
-    $oClient->setOAuthClient($oSecrets->getOAuthClient());
+    $oClient->setOAuthClient($oSecrets->getClientSecrets());
     $oSecrets->saveAccessToken($oClient->refreshAccessToken($strRefreshToken));
 }
 
@@ -40,10 +41,8 @@ $strLocation = '';
 switch ($strAction) {
     case 'saveContact':
         $oContacts = new GContacts($oClient);
-        $oContacts->addPersonFields(GContacts::DEF_DETAIL_PERSON_FIELDS);
 
-        // start with an empty object
-        $oContact = GContact::createEmpty();
+        $oContact = new GContact([]);
 
         $strResourceName = $_POST['resourceName'];
         $bCreateContact = false;
@@ -59,12 +58,17 @@ switch ($strAction) {
             $aPath = explode('_', $strName);
             if (count($aPath) == 3) {
                 $iIndex = intval($aPath[1]);
+                if (!isset($oContact[$aPath[0]])) {
+                    $oContact[$aPath[0]] = [];
+                    $oContacts->addPersonFields($aPath[0]);
+                }
                 if (!isset($oContact[$aPath[0]][$iIndex])) {
                     $oContact[$aPath[0]][$iIndex] = [];
                 }
                 $oContact[$aPath[0]][$iIndex][$aPath[2]] = $strValue;
             }
         }
+
         // set the primary items
         $aPrimaryRadios = [
             GContact::PF_ADDRESSES,
@@ -77,9 +81,17 @@ switch ($strAction) {
                 $oContact->setPrimaryItem($strPrimary, intval($_POST[$strPrimary]));
             }
         }
-        // handle birthday separate...
+        // handle birthday and membership separate...
         if (strlen($_POST['birthday']) > 0) {
+            $oContacts->addPersonFields(GContact::PF_BIRTHDAYS);
             $oContact->setDateOfBirth($_POST['birthday']);
+        }
+        if (isset($_POST['memberships']) && is_array($_POST['memberships'])) {
+            $oContacts->addPersonFields(GContact::PF_MEMBERSHIPS);
+            $oContact['memberships'] = [];
+            foreach ($_POST['memberships'] as $strGroupResourceName) {
+                $oContact['memberships'][] = ['contactGroupMembership' => ['contactGroupResourceName' => $strGroupResourceName]];
+            }
         }
         if ($bCreateContact) {
             $oContact = $oContacts->createContact($oContact);
@@ -163,50 +175,12 @@ switch ($strAction) {
 }
 if ($result !== false && !empty($strLocation)) {
     header('Location: ' . $strLocation);
-    exit;
+} else {
+    displayApiError(
+        $strAction,
+        $strResourceName,
+        $oClient->getLastResponseCode(),
+        $oClient->getLastError(),
+        $oClient->getLastStatus()
+    );
 }
-?>
-<html>
-<head>
-<style>
-body, table {
-    font-family: Sans-Serif;
-    font-size: 12px;
-}
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-td {
-    border: 1px solid #ccc;
-    padding: 2px 4px;
-}
-tr td:nth-child(1) {
-    font-weight: bold;
-}
-</style>
-</head>
-<body>
-<h2>Error <?=$strAction?></h2>
-<table>
-	<tbody>
-		<tr>
-			<td>ressourceName</td>
-			<td><?=$strResourceName?></td>
-		</tr>
-		<tr>
-			<td>Responsecode</td>
-			<td><?=$oClient->getLastResponseCode()?></td>
-		</tr>
-		<tr>
-			<td>Message</td>
-			<td><?=$oClient->getLastError()?></td>
-		</tr>
-		<tr>
-			<td>Status</td>
-			<td><?=$oClient->getLastStatus()?></td>
-		</tr>
-	</tbody>
-</table>
-</body>
-</html>
