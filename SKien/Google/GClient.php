@@ -516,14 +516,11 @@ class GClient
         curl_close($curl);
 
         if ($this->iLastResponseCode == 200) {
-            $result = '';
             $this->strLastError = '';
             $this->strLastStatus = '';
-            if (is_string($strResponse)) {
-                $result = substr($strResponse, $iHeaderSize);
-            }
+            $result = is_string($strResponse) ? substr($strResponse, $iHeaderSize) : '';
         } else {
-            $strError = substr($strResponse, $iHeaderSize);
+            $strError = is_string($strResponse) ? substr($strResponse, $iHeaderSize) : '';
             if (strlen($strError) > 0)  {
                 $aError = json_decode($strError, true);
                 if (isset($aError['error'])) {

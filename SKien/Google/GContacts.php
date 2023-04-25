@@ -370,53 +370,9 @@ class GContacts
     {
         $blobPhoto = '';
         if (filter_var($strFilename, FILTER_VALIDATE_URL)) {
-            // use curl to be independet of [allow_url_fopen] enabled on the system
-            $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, $strFilename);
-            curl_setopt($curl, CURLOPT_HEADER, true);
-            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-
-            $strResponse = curl_exec($curl);
-
-            $iResponseCode = intval(curl_getinfo($curl, CURLINFO_RESPONSE_CODE));
-            $iHeaderSize = intval(curl_getinfo($curl, CURLINFO_HEADER_SIZE));
-
-            curl_close($curl);
-
-            if ($iResponseCode == 200 && is_string($strResponse)) {
-                $aHeader = $this->oClient->parseHttpHeader(substr($strResponse, 0, $iHeaderSize));
-                $strContentType = $aHeader['content-type'] ?? '';
-                switch ($strContentType) {
-                    case 'image/jpeg':
-                    case 'image/png':
-                    case 'image/gif':
-                    case 'image/bmp':
-                        $img = substr($strResponse, $iHeaderSize);
-                        $blobPhoto = base64_encode($img);
-                        break;
-                    default:
-                        $this->oClient->setError(0, 'Unsupported file type: ' . $strContentType, 'INVALID_ARGUMENT');
-                        break;
-                }
-            } else {
-                $this->oClient->setError(0, 'File not found: ' . $strFilename, 'INVALID_ARGUMENT');
-            }
+            $blobPhoto = $this->loadImageFromURL($strFilename);
         } elseif (file_exists($strFilename)) {
-            $iImageType = exif_imagetype($strFilename);
-            switch ($iImageType) {
-                case IMAGETYPE_JPEG:
-                case IMAGETYPE_PNG:
-                case IMAGETYPE_GIF:
-                case IMAGETYPE_BMP:
-                    $img = file_get_contents($strFilename);
-                    if ($img !== false) {
-                        $blobPhoto = base64_encode($img);
-                    }
-                    break;
-                default:
-                    $this->oClient->setError(0, 'Unsupported image type: ' . image_type_to_mime_type($iImageType), 'INVALID_ARGUMENT');
-                    break;
-            }
+            $blobPhoto = $this->loadImageFromFile($strFilename);
         } else {
             $this->oClient->setError(0, 'File not found: ' . $strFilename, 'INVALID_ARGUMENT');
         }
@@ -500,5 +456,75 @@ class GContacts
             }
         }
         return $aUpdatePersonFields;
+    }
+
+    /**
+     * Load an image from an URL.
+     * The method uses curl to be independet of [allow_url_fopen] enabled on the system.
+     * @param string $strURL
+     * @return string   base64 encoded imagedata
+     */
+    private function loadImageFromURL(string $strURL) : string
+    {
+        $blobPhoto = '';
+
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $strURL);
+        curl_setopt($curl, CURLOPT_HEADER, true);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+        $strResponse = curl_exec($curl);
+
+        $iResponseCode = intval(curl_getinfo($curl, CURLINFO_RESPONSE_CODE));
+        $iHeaderSize = intval(curl_getinfo($curl, CURLINFO_HEADER_SIZE));
+
+        curl_close($curl);
+
+        if ($iResponseCode == 200 && is_string($strResponse)) {
+            $aHeader = $this->oClient->parseHttpHeader(substr($strResponse, 0, $iHeaderSize));
+            $strContentType = $aHeader['content-type'] ?? '';
+            switch ($strContentType) {
+                case 'image/jpeg':
+                case 'image/png':
+                case 'image/gif':
+                case 'image/bmp':
+                    $img = substr($strResponse, $iHeaderSize);
+                    $blobPhoto = base64_encode($img);
+                    break;
+                default:
+                    $this->oClient->setError(0, 'Unsupported file type: ' . $strContentType, 'INVALID_ARGUMENT');
+                    break;
+            }
+        } else {
+            $this->oClient->setError(0, 'File not found: ' . $strURL, 'INVALID_ARGUMENT');
+        }
+        return $blobPhoto;
+    }
+
+    /**
+     * Load an image from an file.
+     * In most cases an uploaded imagefile.
+     * @param string $strFilename
+     * @return string   base64 encoded imagedata
+     */
+    private function loadImageFromFile(string $strFilename) : string
+    {
+        $blobPhoto = '';
+        $iImageType = exif_imagetype($strFilename);
+        switch ($iImageType) {
+            case IMAGETYPE_JPEG:
+            case IMAGETYPE_PNG:
+            case IMAGETYPE_GIF:
+            case IMAGETYPE_BMP:
+                $img = file_get_contents($strFilename);
+                if ($img !== false) {
+                    $blobPhoto = base64_encode($img);
+                }
+                break;
+            default:
+                $this->oClient->setError(0, 'Unsupported image type: ' . image_type_to_mime_type($iImageType), 'INVALID_ARGUMENT');
+                break;
+        }
+        return $blobPhoto;
     }
 }
