@@ -344,7 +344,7 @@ class GContact extends \ArrayObject
         if (!isset($this['birthdays'][0]['date'])) {
             $this['birthdays'][0]['date'] = [];
         }
-        if (is_object($DateOfBirth) && get_class($DateOfBirth) == 'DateTime') {
+        if (is_object($DateOfBirth)) {
             // DateTime -object
             $uxts = $DateOfBirth->getTimestamp();
         } else if (is_string($DateOfBirth)) {

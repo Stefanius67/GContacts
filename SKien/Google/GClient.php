@@ -516,9 +516,12 @@ class GClient
         curl_close($curl);
 
         if ($this->iLastResponseCode == 200) {
-            $result = substr($strResponse, $iHeaderSize);
+            $result = '';
             $this->strLastError = '';
             $this->strLastStatus = '';
+            if (is_string($strResponse)) {
+                $result = substr($strResponse, $iHeaderSize);
+            }
         } else {
             $strError = substr($strResponse, $iHeaderSize);
             if (strlen($strError) > 0)  {

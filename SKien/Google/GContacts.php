@@ -413,9 +413,6 @@ class GContacts
                         $blobPhoto = base64_encode($img);
                     }
                     break;
-                case false:
-                    $this->oClient->setError(0, 'Can not detect image type: ' . $strFilename, 'INVALID_ARGUMENT');
-                    break;
                 default:
                     $this->oClient->setError(0, 'Unsupported image type: ' . image_type_to_mime_type($iImageType), 'INVALID_ARGUMENT');
                     break;

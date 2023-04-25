@@ -164,7 +164,9 @@ class GSecrets
         if ($this->iSaveTokensAt == self::TOKEN_COOKIE) {
             $this->setCookie(self::REFRESH_TOKEN, '');
         } else {
+            /** @scrutinizer ignore-unhandled */
             @unlink($this->strSecretsPath . self::REFRESH_TOKEN . '.txt');
+            /** @scrutinizer ignore-unhandled */
             @unlink($this->strSecretsPath . self::ACCESS_TOKEN . '.json');
         }
     }
