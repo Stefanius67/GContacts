@@ -85,7 +85,7 @@ class GSecrets
      * Get full path and filename of the oauth client configuration file.
      * @return string
      */
-    public function getOAuthClient() : string
+    public function getClientSecrets() : string
     {
         return $this->strSecretsPath . $this->strSecretsFilename;
     }

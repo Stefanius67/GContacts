@@ -89,27 +89,29 @@ class GClient
      * - $strTokenURI
      * - $strClientSecret
      * - $strRedirectURI
-     * from the JSO config file.
-     * @param string $strOAuthClient    filename or json-data
+     * from the JSON config file.
+     * @param string $strClientSecrets    filename
      */
-    public function setOAuthClient(string $strOAuthClient) : void
+    public function setOAuthClient(string $strClientSecrets) : void
     {
-        if (@file_exists($strOAuthClient)) {
-            $strOAuthClient = file_get_contents($strOAuthClient);
-        }
-        $aOAuthClient = json_decode($strOAuthClient, true);
-        if ($aOAuthClient !== null && (isset($aOAuthClient['web']) || isset($aOAuthClient['installed']))) {
-            $aData = $aOAuthClient['web'] ?? $aOAuthClient['installed'];
-            $this->strClientID = $aData['client_id'] ?? '';
-            $this->strProjectID = $aData['project_id'] ?? '';
-            $this->strAuthURI = $aData['auth_uri'] ?? '';
-            $this->strTokenURI = $aData['token_uri'] ?? '';
-            $this->strClientSecret = $aData['client_secret'] ?? '';
-            if (isset($aData['redirect_uris']) and is_array($aData['redirect_uris'])) {
-                $this->strRedirectURI = $aData['redirect_uris'][0];
+        if (file_exists($strClientSecrets)) {
+            $strOAuthClient = file_get_contents($strClientSecrets);
+            $aOAuthClient = json_decode($strOAuthClient, true);
+            if ($aOAuthClient !== null && (isset($aOAuthClient['web']) || isset($aOAuthClient['installed']))) {
+                $aData = $aOAuthClient['web'] ?? $aOAuthClient['installed'];
+                $this->strClientID = $aData['client_id'] ?? '';
+                $this->strProjectID = $aData['project_id'] ?? '';
+                $this->strAuthURI = $aData['auth_uri'] ?? '';
+                $this->strTokenURI = $aData['token_uri'] ?? '';
+                $this->strClientSecret = $aData['client_secret'] ?? '';
+                if (isset($aData['redirect_uris']) and is_array($aData['redirect_uris'])) {
+                    $this->strRedirectURI = $aData['redirect_uris'][0];
+                }
+            } else {
+                throw new MissingClientInformationException('No valid client informations from google API console available.');
             }
         } else {
-            throw new MissingClientInformationException('No valid client informations from google API console available.');
+            throw new MissingClientInformationException('Client secrets file [' . $strClientSecrets . '] not found!');
         }
     }
 
