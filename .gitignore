@@ -4,5 +4,6 @@
 /test/coverage/
 /data/
 /wiki/
+/doc/*.html
 /secrets/*.txt
 /secrets/*.json
