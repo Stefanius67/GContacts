@@ -21,6 +21,9 @@ The following functionalities are supported:
 - assign /remove contacts to contact groups
 - set / remove contact photos
 
+> This package only uses the standard **PHP cURL library** and have no further dependencies 
+> to any other 3rd party libraries or packages.
+
 ## Usage
 A smart example of using the package is provided. This example is only intended to demonstrate 
 the use of the package. The UI is only coded 'quick and dirty', contains no validations and should

@@ -19,7 +19,7 @@ require_once 'autoloader.php';
  */
 $oSecrets = new GSecrets(GSecrets::TOKEN_FILE);
 $oClient = new GClient();
-$oClient->setOAuthClient($oSecrets->getOAuthClient());
+$oClient->setOAuthClient($oSecrets->getClientSecrets());
 if ($oClient->fetchTokens($_GET['code'])) {
     $oSecrets->saveRefreshToken($oClient->getRefreshToken());
     $oSecrets->saveAccessToken($oClient->getAccessToken());

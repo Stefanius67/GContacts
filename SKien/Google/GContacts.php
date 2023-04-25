@@ -29,9 +29,11 @@ namespace SKien\Google;
  */
 class GContacts
 {
-    /** valid scopes to retrieve person data */
+    /** full access to the users contacts */
     public const CONTACTS = "https://www.googleapis.com/auth/contacts";
+    /** readonly access to the users contacts */
     public const CONTACTS_READONLY = "https://www.googleapis.com/auth/contacts.readonly";
+    /** readonly access to the users other contacts */
     public const CONTACTS_OTHER_READONLY ="https://www.googleapis.com/auth/contacts.other.readonly";
 
     /**	Sort people by when they were changed; older entries first. */
@@ -98,7 +100,7 @@ class GContacts
     /**
      * Add personFields/readMask for next request.
      * Can be called multiple and/or by passing an array of personFields. All
-     * const GContact::PF_xxxx can be specified.
+     * const `GContact::PF_xxxx` can be specified.
      * @param string|array<string>|null $fields; if set to null, the internal array is cleared
      */
     public function addPersonFields($fields) : void
@@ -174,6 +176,12 @@ class GContacts
 
     /**
      * Search within the contacts.
+     * The query matches on a contact's `names`, `nickNames`, `emailAddresses`,
+     * `phoneNumbers`, and `organizations` fields. The search for phone numbers only
+     * works, if leading '+' and contained '(', ')' or spaces are omitted in the query!
+     * The query is used to match <b>prefix</B> phrases of the fields on a person.
+     * For example, a person with name "foo name" matches queries such as "f", "fo",
+     * "foo", "foo n", "nam", etc., but not "oo n".
      * > <b>Note:</b>
      * > The count of contacts, the search request returns is limitetd to the
      * > pageSize (which is limited itself to max. 30 at all). If there are
@@ -181,7 +189,7 @@ class GContacts
      * > further information about that additional contacts - and how many - are
      * > available!
      * @link https://developers.google.com/people/api/rest/v1/people/searchContacts
-     * @param string $strQuery
+     * @param string $strQuery  the query to search for
      * @return array<mixed>|false
      */
     public function search(string $strQuery)
@@ -193,10 +201,18 @@ class GContacts
         }
 
         $aParams = [
-            'query' => $strQuery,
+            'query' => '',
             'readMask' => implode(',', $this->aPersonFields),
             'pageSize' => ($this->iPageSize > self::SEARCH_MAX_PAGESIZE ? self::SEARCH_MAX_PAGESIZE : $this->iPageSize),
         ];
+        $strURI = 'https://people.googleapis.com/v1/people:searchContacts?' . http_build_query($aParams);;
+
+        // 'warmup' request
+        // Note from google documentation:
+        // Before searching, clients should send a warmup request with an empty query to update the cache.
+        // https://developers.google.com/people/v1/contacts#search_the_users_contacts
+        $this->oClient->fetchJsonResponse($strURI, GClient::GET, $aHeader);
+        $aParams['query'] = $strQuery;
         $strURI = 'https://people.googleapis.com/v1/people:searchContacts?' . http_build_query($aParams);;
 
         $aContactList = false;
@@ -214,7 +230,7 @@ class GContacts
 
     /**
      * Get the contact specified by its resourceName.
-     * https://developers.google.com/people/api/rest/v1/people/get
+     * @link https://developers.google.com/people/api/rest/v1/people/get
      * @param string $strResourceName
      * @return GContact|false
      */
@@ -477,8 +493,8 @@ class GContacts
         $aReadonlyPersonFields = [
             GContact::PF_PHOTOS,
             GContact::PF_COVER_PHOTOS,
+            GContact::PF_AGE_RANGES,
             GContact::PF_METADATA,
-            GContact::PF_MEMBERSHIPS,  // we mark it so far as readonly since we only allow to change the membership through the group!
         ];
         $aUpdatePersonFields = $this->aPersonFields;
         foreach ($aReadonlyPersonFields as $strReadonly) {
