@@ -22,8 +22,13 @@ The following functionalities are supported:
 - assign /remove contacts to contact groups
 - set / remove contact photos
 
-> This package only uses the standard **PHP cURL library** and have no further dependencies 
-> to any other 3rd party libraries or packages.
+The package only uses the standard **PHP cURL library** and have no further dependencies 
+to any other 3rd party libraries or packages.
+
+The fact that on almost every mobile phone that runs under Android, the contacts are managed either 
+with the Google Contacts or with a compatible app and are also automatically be synchronised with 
+the Google account contacts (with the appropriate setting), makes this package interesting for 
+management- and/or synchronization purposes.
 
 ## Usage
 A smart example of using the package is provided. This example is only intended to demonstrate 
@@ -38,6 +43,9 @@ Take a lock at the files
 - GoogleOauth2Callback.php
 
 **The starting point is the file ´ContactList.php´**
+
+A complete documentation of the classes and a detailed description, how to create your own
+credential to access the google API can be found at https://github.com/Stefanius67/GContacts/wiki
 
 ## Logging
 This package can use any PSR-3 compliant logger. The logger is initialized with a NullLogger-object 

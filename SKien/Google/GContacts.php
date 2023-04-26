@@ -101,6 +101,9 @@ class GContacts
      * Add personFields/readMask for next request.
      * Can be called multiple and/or by passing an array of personFields. All
      * const `GContact::PF_xxxx` can be specified.
+     * If no personFields specified before an API call, as default setting
+     * - `self::DEF_DETAIL_PERSON_FIELDS` for the getContact() and
+     * - `self::DEF_LIST_PERSON_FIELDS` for the list() and search() call is used
      * @param string|array<string>|null $fields; if set to null, the internal array is cleared
      */
     public function addPersonFields($fields) : void
@@ -230,7 +233,10 @@ class GContacts
 
     /**
      * Get the contact specified by its resourceName.
+     * Note that only the person fields specified with `addPersonFields()` are included
+     * in the result.
      * @link https://developers.google.com/people/api/rest/v1/people/get
+     * @see GContacts::addPersonFields()
      * @param string $strResourceName
      * @return GContact|false
      */

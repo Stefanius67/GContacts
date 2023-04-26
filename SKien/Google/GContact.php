@@ -148,6 +148,9 @@ class GContact extends \ArrayObject
      */
     static public function fromJSON(string $strJSON, array $aPersonFields = null) : GContact
     {
+        // since the result of the API request only contains the personFields that are set,
+        // we first create an empty object that contains at least the base personField
+        // element ()
         $oContact = self::createEmpty($aPersonFields);
         $aData = array_merge($oContact->getArrayCopy(), json_decode($strJSON, true));
 
