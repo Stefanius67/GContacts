@@ -150,7 +150,7 @@ class GContact extends \ArrayObject
     {
         // since the result of the API request only contains the personFields that are set,
         // we first create an empty object that contains at least the base personField
-        // element ()
+        // elements.
         $oContact = self::createEmpty($aPersonFields);
         $aData = array_merge($oContact->getArrayCopy(), json_decode($strJSON, true));
 

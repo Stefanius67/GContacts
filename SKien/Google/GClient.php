@@ -329,7 +329,13 @@ class GClient
      */
     public function getAuthHeader() : string
     {
-        return 'Authorization: ' . $this->aAccessToken['token_type'] . ' ' . $this->aAccessToken['access_token'];
+        $strAuth = '';
+        if (isset($this->aAccessToken['token_type']) && isset($this->aAccessToken['access_token'])) {
+            $strAuth = 'Authorization: ' . $this->aAccessToken['token_type'] . ' ' . $this->aAccessToken['access_token'];
+        } else {
+            throw new MissingPropertyException('No auth access set!');
+        }
+        return $strAuth;
     }
 
     /**

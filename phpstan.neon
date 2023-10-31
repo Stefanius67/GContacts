@@ -10,6 +10,7 @@ parameters:
 	level: 6
 	paths:
 		- SKien/Google
+		- SKien/VCard
 		- Vendor/Psr
 	excludePaths:
 		analyse:

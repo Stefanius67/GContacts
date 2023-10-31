@@ -105,9 +105,13 @@ class GContacts
      * - `self::DEF_DETAIL_PERSON_FIELDS` for the getContact() and
      * - `self::DEF_LIST_PERSON_FIELDS` for the list() and search() call is used
      * @param string|array<string>|null $fields; if set to null, the internal array is cleared
+     * @param bool $bReset  rest current set personFields
      */
-    public function addPersonFields($fields) : void
+    public function addPersonFields($fields, bool $bReset = false) : void
     {
+        if ($bReset) {
+            $this->aPersonFields = [];
+        }
         if ($fields === null) {
             $this->aPersonFields = [];
         } else if (is_array($fields)) {
@@ -281,7 +285,7 @@ class GContacts
         $aParams = ['personFields' => implode(',', $this->getUpdatePersonFields())];
 
         $result = false;
-        $data = json_encode($oContact);
+        $data = json_encode($oContact->getArrayCopy());
         if ($data !== false) {
             $strURI = 'https://people.googleapis.com/v1/people:createContact/?' . http_build_query($aParams);
             $strResponse = $this->oClient->fetchJsonResponse($strURI, GClient::POST, $aHeader, $data);
@@ -289,6 +293,8 @@ class GContacts
             if ($strResponse !== false) {
                 $result = GContact::fromJSON($strResponse, $this->aPersonFields);
             }
+        } else {
+            $this->oClient->setError(json_last_error(), json_last_error_msg(), 'ERROR_JSON_ENCODE');
         }
         return $result;
     }

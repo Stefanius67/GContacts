@@ -36,6 +36,27 @@ if ($oClient->isAccessTokenExpired()) {
 
 $oContacts = new GContacts($oClient);
 $oContacts->addPersonFields(GContacts::DEF_DETAIL_PERSON_FIELDS);
+// Full data
+/*
+$oContacts->addPersonFields([
+    GContact::PF_AGE_RANGES,
+    GContact::PF_CALENDAR_URLS,
+    GContact::PF_CLIENT_DATA,
+    GContact::PF_COVER_PHOTOS,
+    GContact::PF_EVENTS,
+    GContact::PF_EXTERNAL_IDS,
+    GContact::PF_IM_CLIENTS,
+    GContact::PF_INTERESTS,
+    GContact::PF_LOCALES,
+    GContact::PF_LOCATIONS,
+    GContact::PF_MISC_KEYWORDS,
+    GContact::PF_OCCUPATIONS,
+    GContact::PF_RELATIONS,
+    GContact::PF_SIP_ADDRESSES,
+    GContact::PF_SKILLS,
+    GContact::PF_USER_DEFINED,
+]);
+*/
 $strResourceName = rawurldecode($_GET['res'] ?? '');
 
 if (empty($strResourceName)) {

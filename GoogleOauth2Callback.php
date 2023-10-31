@@ -17,7 +17,7 @@ require_once 'autoloader.php';
  * @author Stefanius <s.kientzler@online.de>
  * @copyright MIT License - see the LICENSE file for details
  */
-$oSecrets = new GSecrets(GSecrets::TOKEN_FILE);
+$oSecrets = new GSecrets(-1, GSecrets::TOKEN_FILE);
 $oClient = new GClient();
 $oClient->setOAuthClient($oSecrets->getClientSecrets());
 if ($oClient->fetchTokens($_GET['code'])) {

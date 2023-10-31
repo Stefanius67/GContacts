@@ -8,6 +8,7 @@ use SKien\Google\GContacts;
 use SKien\Google\GSecrets;
 
 require_once 'autoloader.php';
+require_once 'displayApiError.php';
 
 /**
  * This example is only intended to demonstrate the use of the package. The UI
@@ -190,17 +191,19 @@ function deleteGroup()
 	<h2><?=$strTitle?></h2>
 	<a href="./ContactDetails.php">Add new contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="javascript: createGroup()">Create new contactgroup</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="javascript: deleteGroup()">Delete existing contactgroup</a>
+	<a href="javascript: deleteGroup()">Delete existing contactgroup</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="./ImportVCard.php">VCard Import</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<br/><br/>
     <table style="width: 100%">
     	<tbody>
     		<tr>
     			<th style="width: 4%">#</th>
     			<th style="width: 3%">&nbsp;</th>
-    			<th style="width: 25%">Name</th>
-    			<th style="width: 20%" colspan="2">Phone 1</th>
-    			<th style="width: 20%" colspan="2">Phone 2</th>
+    			<th style="width: 22%">Name</th>
+    			<th style="width: 18%" colspan="2">Phone 1</th>
+    			<th style="width: 18%" colspan="2">Phone 2</th>
     			<th style="width: 25%">e-Mail</th>
+    			<th style="width: 7%">&nbsp;</th>
     			<th style="width: 3%">&nbsp;</th>
     		</tr>
 <?php
@@ -231,6 +234,7 @@ foreach ($aContactList as $aContact) {
     echo '                <td>' . (isset($aContact['phoneNumbers'][1]) ? $aContact['phoneNumbers'][1]['type'] : '') . '</td>' . PHP_EOL;
     echo '                <td>' . (isset($aContact['phoneNumbers'][1]) ? $aContact['phoneNumbers'][1]['value'] : '') . '</td>' . PHP_EOL;
     echo '                <td>' . (isset($aContact['emailAddresses'][0]) ? $aContact['emailAddresses'][0]['value'] : '') . '</td>' . PHP_EOL;
+    echo '                <td><a href="./ExportVCard.php?res=' . $strResourceName . '" target="_blank">VCard</a></td>' . PHP_EOL;
     echo '                <td><a class="trash" href="' . $strDeleteFunc . '" title="delete contact">&#128465;</a></td>' . PHP_EOL;
     echo '            </tr>' . PHP_EOL;
 }
