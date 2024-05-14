@@ -17,7 +17,7 @@ namespace SKien\Google;
  * >   the tokens from the files created after the oauth-login has called the
  * >   redirectURI.
  * >
- * > **For of security issues DO NOT USE THIS MODE for public environments!!!**
+ * > **For  security issues DO NOT USE THIS MODE for public environments!!!**
  *
  * @author Stefanius <s.kientzler@online.de>
  * @copyright MIT License - see the LICENSE file for details
